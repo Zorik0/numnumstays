@@ -13,5 +13,8 @@ export const button = {
   outline: `${base} border border-ink/20 text-ink hover:border-ink hover:bg-ink/[0.03]`,
 };
 
+/** Slightly smaller buttons on phones, so a pair fits on one row. */
+export const compactOnPhones = "max-sm:px-5 max-sm:py-3 max-sm:text-[0.9375rem]";
+
 export const textLink =
   "underline decoration-current/30 underline-offset-4 transition-colors hover:decoration-current";

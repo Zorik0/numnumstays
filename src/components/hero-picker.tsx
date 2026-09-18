@@ -97,7 +97,7 @@ export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
         <Link
           href={current.href}
           aria-label={`See ${current.name}`}
-          className="house-frame relative block aspect-[4/5] overflow-hidden bg-ink-raised"
+          className="house-frame relative block aspect-square overflow-hidden bg-ink-raised sm:aspect-[4/5]"
         >
           {slides.map((slide, index) =>
             loaded.has(index) ? (
@@ -122,7 +122,7 @@ export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
       </div>
 
       <div
-        className="mt-6 flex items-end justify-between gap-4"
+        className="mt-5 flex items-end justify-between gap-4 sm:mt-6"
         aria-live={autoplay ? "off" : "polite"}
       >
         <div>
@@ -136,7 +136,7 @@ export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
         </Link>
       </div>
 
-      <div className="mt-5 flex items-center gap-2">
+      <div className="mt-4 flex items-center gap-2 sm:mt-5">
         <div role="tablist" aria-label="Choose a stay by door number" className="grid flex-1 grid-cols-7 gap-1.5">
           {slides.map((slide, index) => {
             const selected = index === active;

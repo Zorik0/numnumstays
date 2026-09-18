@@ -34,7 +34,7 @@ export function NightWindow() {
   }, [reducedMotion]);
 
   return (
-    <div className="relative mx-auto w-full max-w-[26rem]">
+    <div className="relative mx-auto w-full max-w-[15rem] sm:max-w-[20rem] lg:max-w-[26rem]">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute -inset-x-10 bottom-[-8%] top-[22%] rounded-[50%] bg-mustard/30 blur-3xl"

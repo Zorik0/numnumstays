@@ -49,6 +49,7 @@ export default function TermsPage() {
           or message us on WhatsApp.
         </p>
         <a
+          data-booking-cta
           href={whatsappLink(bookingMessage)}
           target="_blank"
           rel="noopener noreferrer"

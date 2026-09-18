@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Car, Clock, Footprints, IdCard, Luggage, Mail, MapPin, Phone, Zap } from "lucide-react";
 import { BrandIcon } from "@/components/brand-icon";
 import { HeroPicker, type HeroSlide } from "@/components/hero-picker";
 import { JsonLd } from "@/components/json-ld";
 import { MapEmbed } from "@/components/map-embed";
 import { NightWindow } from "@/components/night-window";
 import { StaysDirectory } from "@/components/stays-directory";
-import { button, textLink } from "@/components/ui";
+import { button, compactOnPhones, textLink } from "@/components/ui";
 import { Wordmark } from "@/components/wordmark";
 import {
   bookingMessage,
@@ -45,48 +45,58 @@ function StayLink({ slug }: { slug: string }) {
 
 const goodToKnow = [
   {
-    title: "Check-in 1 pm, checkout 10 am",
-    body: <>Arrive any time after {site.checkIn} and leave by {site.checkOut}. Most stays have self check-in.</>,
+    icon: Clock,
+    title: "Check-in & checkout",
+    body: (
+      <>
+        Check in after {site.checkIn} and check out by {site.checkOut}. Most stays have self check-in.
+      </>
+    ),
   },
   {
+    icon: Footprints,
     title: "Stairs, not lifts",
     body: (
       <>
-        The upper-floor stays have no lift. <StayLink slug="comfy-pod" /> and <StayLink slug="chillax-pod" /> are
-        on the ground floor.
+        Upper floors have no lift. <StayLink slug="comfy-pod" /> and <StayLink slug="chillax-pod" /> are on the
+        ground floor.
       </>
     ),
   },
   {
+    icon: Car,
     title: "Parking",
     body: (
       <>
-        <StayLink slug="ample-house" /> and <StayLink slug="jolly-house" /> each have parking for one car. The
-        other stays have no car parking.
+        Parking for one car at <StayLink slug="ample-house" /> and <StayLink slug="jolly-house" />. None at the
+        others.
       </>
     ),
   },
   {
+    icon: Zap,
     title: "Power backup",
     body: (
       <>
-        Partial power backup at <StayLink slug="wonk-studio" />, <StayLink slug="jolly-house" />,{" "}
+        Partial backup at <StayLink slug="wonk-studio" />, <StayLink slug="jolly-house" />,{" "}
         <StayLink slug="snug-studio" /> and <StayLink slug="light-house" />.
       </>
     ),
   },
   {
+    icon: Luggage,
     title: "Luggage drop-off",
     body: (
       <>
-        Arriving early or leaving late? <StayLink slug="ample-house" />, <StayLink slug="jolly-house" /> and{" "}
+        Early or late? <StayLink slug="ample-house" />, <StayLink slug="jolly-house" /> and{" "}
         <StayLink slug="snug-studio" /> can hold your bags.
       </>
     ),
   },
   {
+    icon: IdCard,
     title: "Bring a valid ID",
-    body: <>Guests must show a valid ID at check-in, such as an Aadhaar card, driving licence or passport.</>,
+    body: <>Guests need a valid ID at check-in, like an Aadhaar card, driving licence or passport.</>,
   },
 ];
 
@@ -143,26 +153,26 @@ export default function HomePage() {
 
       {/* Hero: the logo at full size beside a window onto each stay. */}
       <section className="on-ink overflow-hidden bg-ink text-white">
-        <div className="container-page grid gap-14 pb-16 pt-10 sm:pt-14 lg:grid-cols-12 lg:items-center lg:gap-10 lg:pb-24 lg:pt-16">
+        <div className="container-page grid gap-9 pb-12 pt-7 sm:gap-14 sm:pb-16 sm:pt-14 lg:grid-cols-12 lg:items-center lg:gap-10 lg:pb-24 lg:pt-16">
           <div className="lg:col-span-6">
-            <h1 id="hero-wordmark">
+            <h1>
               <span className="sr-only">NumNum Stays</span>
-              <Wordmark className="w-[min(72vw,19rem)] text-mustard sm:w-[24rem] xl:w-[28rem]" />
+              <Wordmark className="w-[min(60vw,15rem)] text-mustard sm:w-[22rem] xl:w-[28rem]" />
             </h1>
-            <p className="mt-10 max-w-md text-lead text-white/85">
+            <p className="mt-6 max-w-md text-lead text-white/85 sm:mt-10">
               Seven cosy, colourful stays in Saket, South Delhi. From a room for two to 3 BHK homes that sleep ten.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div data-booking-cta className="mt-6 flex flex-wrap gap-2.5 sm:mt-8 sm:gap-3">
               <a
                 href={whatsappLink(bookingMessage)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={button.primary}
+                className={cn(button.primary, compactOnPhones)}
               >
                 <BrandIcon name="whatsapp" className="size-5" />
                 Book on WhatsApp
               </a>
-              <Link href="#stays" className={button.ghostOnInk}>
+              <Link href="#stays" className={cn(button.ghostOnInk, compactOnPhones)}>
                 See the stays
               </Link>
             </div>
@@ -174,59 +184,69 @@ export default function HomePage() {
       </section>
 
       {/* The stays */}
-      <section id="stays" aria-labelledby="stays-heading" className="py-20 lg:py-28">
+      <section id="stays" aria-labelledby="stays-heading" className="py-14 sm:py-20 lg:py-28">
         <div className="container-page">
           <div className="max-w-2xl">
             <h2 id="stays-heading" className="text-section font-semibold">
               The stays
             </h2>
-            <p className="mt-4 text-lead text-muted">
+            <p className="mt-3 text-lead text-muted sm:mt-4">
               All seven are in Saket, a 5–7 minute drive from Saket Metro Station. Each one is decorated in its
               own way, and all of them are kept very clean and well maintained.
             </p>
           </div>
-          <div className="mt-14">
-            <StaysDirectory />
+          <div className="mt-10 sm:mt-14">
+            <StaysDirectory swipeOnPhones />
           </div>
         </div>
       </section>
 
       {/* Good to know */}
-      <section aria-labelledby="know-heading" className="bg-lilac py-20 lg:py-24">
-        <div className="container-page grid gap-12 lg:grid-cols-12">
+      <section aria-labelledby="know-heading" className="bg-lilac py-14 sm:py-20 lg:py-24">
+        <div className="container-page grid gap-8 lg:grid-cols-12 lg:gap-12">
           <div className="lg:col-span-4">
             <h2 id="know-heading" className="text-section font-semibold">
               Good to know
             </h2>
-            <p className="mt-4 max-w-sm text-ink/70">
+            <p className="mt-3 max-w-sm text-ink/70 sm:mt-4">
               What&apos;s the same at every stay, and where they differ.
             </p>
           </div>
-          <dl className="grid gap-x-10 gap-y-9 sm:grid-cols-2 lg:col-span-8">
-            {goodToKnow.map((fact) => (
-              <div key={fact.title} className="border-t border-ink/15 pt-4">
-                <dt className="text-lg font-semibold">{fact.title}</dt>
-                <dd className="mt-1.5 text-ink/75">{fact.body}</dd>
-              </div>
+          <ul className="grid grid-cols-2 gap-2.5 sm:gap-4 lg:col-span-8 lg:grid-cols-3">
+            {goodToKnow.map(({ icon: Icon, title, body }) => (
+              <li key={title} className="rounded-xl bg-white/75 p-4 sm:p-5">
+                <span
+                  aria-hidden="true"
+                  className="flex size-9 items-center justify-center rounded-full bg-ink text-mustard"
+                >
+                  <Icon className="size-[1.125rem]" />
+                </span>
+                <h3 className="mt-3.5 font-semibold leading-snug sm:text-lg">{title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink/75 sm:text-base">{body}</p>
+              </li>
             ))}
-          </dl>
+          </ul>
         </div>
       </section>
 
       {/* How to book */}
-      <section id="booking" aria-labelledby="booking-heading" className="on-ink overflow-hidden bg-ink py-20 text-white lg:py-28">
-        <div className="container-page grid items-center gap-16 lg:grid-cols-12">
+      <section
+        id="booking"
+        aria-labelledby="booking-heading"
+        className="on-ink overflow-hidden bg-ink py-14 text-white sm:py-20 lg:py-28"
+      >
+        <div className="container-page grid items-center gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-6">
             <h2 id="booking-heading" className="text-section font-semibold">
               How to book
             </h2>
-            <p className="mt-4 max-w-lg text-lead text-white/80">
+            <p className="mt-3 max-w-lg text-lead text-white/80 sm:mt-4">
               Book direct with us on WhatsApp or by phone. Every stay is on Airbnb too, if you&apos;d rather book
               there.
             </p>
-            <ol className="mt-10 space-y-7">
+            <ol className="mt-8 space-y-6 sm:mt-10 sm:space-y-7">
               {steps.map((step, index) => (
-                <li key={step.title} className="grid grid-cols-[auto_1fr] gap-5">
+                <li key={step.title} className="grid grid-cols-[auto_1fr] gap-4 sm:gap-5">
                   <span
                     aria-hidden="true"
                     className="flex size-10 items-center justify-center rounded-full border border-mustard/50 font-semibold tabular-nums text-mustard"
@@ -240,19 +260,20 @@ export default function HomePage() {
                 </li>
               ))}
             </ol>
-            <div className="mt-10 flex flex-wrap gap-3">
+            <div data-booking-cta className="mt-8 flex flex-wrap gap-2.5 sm:mt-10 sm:gap-3">
               <a
                 href={whatsappLink(bookingMessage)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={button.primary}
+                className={cn(button.primary, compactOnPhones)}
               >
                 <BrandIcon name="whatsapp" className="size-5" />
                 Book on WhatsApp
               </a>
-              <a href={`tel:${primaryPhone.tel}`} className={button.ghostOnInk}>
+              <a href={`tel:${primaryPhone.tel}`} className={cn(button.ghostOnInk, compactOnPhones)}>
                 <Phone className="size-4" aria-hidden="true" />
-                Call {primaryPhone.display}
+                <span className="sm:hidden">Call us</span>
+                <span className="hidden sm:inline">Call {primaryPhone.display}</span>
               </a>
             </div>
           </div>
@@ -262,14 +283,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Find us */}
-      <section id="contact" aria-labelledby="contact-heading" className="py-20 lg:py-28">
-        <div className="container-page grid gap-12 lg:grid-cols-12 lg:gap-10">
+      {/* Find us. On phones the map comes before the contact list; on large screens it sits beside both. */}
+      <section id="contact" aria-labelledby="contact-heading" className="py-14 sm:py-20 lg:py-28">
+        <div className="container-page grid gap-8 lg:grid-cols-12 lg:gap-x-10 lg:gap-y-10">
           <div className="lg:col-span-5">
             <h2 id="contact-heading" className="text-section font-semibold">
               Find us
             </h2>
-            <address className="mt-6 text-lead not-italic">
+            <address className="mt-5 text-lead not-italic sm:mt-6">
               {site.address.street}
               <br />
               {site.address.locality}, {site.address.region} {site.address.postalCode}
@@ -282,63 +303,62 @@ export default function HomePage() {
               href={directionsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className={cn(button.ink, "mt-6")}
+              className={cn(button.ink, compactOnPhones, "mt-6")}
             >
               <MapPin className="size-4" aria-hidden="true" />
               Get directions
             </a>
+          </div>
 
-            <ul className="mt-12 divide-y divide-line border-y border-line">
-              <ContactRow
-                icon={<Phone className="size-5" aria-hidden="true" />}
-                label="Call"
-                value={
-                  <span className="flex flex-wrap gap-x-4">
-                    {site.phones.map((phone) => (
-                      <a key={phone.tel} href={`tel:${phone.tel}`} className={cn("tabular-nums", textLink)}>
-                        {phone.display}
-                      </a>
-                    ))}
-                  </span>
-                }
-              />
-              <ContactRow
-                icon={<BrandIcon name="whatsapp" className="size-5" />}
-                label="WhatsApp"
-                value={
-                  <a
-                    href={whatsappLink(bookingMessage)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={cn("tabular-nums", textLink)}
-                  >
-                    {primaryPhone.display}
-                  </a>
-                }
-              />
-              <ContactRow
-                icon={<Mail className="size-5" aria-hidden="true" />}
-                label="Email"
-                value={
-                  <a href={emailLink} className={textLink}>
-                    {site.email}
-                  </a>
-                }
-              />
-              <ContactRow
-                icon={<BrandIcon name="instagram" className="size-5" />}
-                label="Instagram"
-                value={
-                  <a href={site.instagram.url} target="_blank" rel="noopener noreferrer" className={textLink}>
-                    @{site.instagram.handle}
-                  </a>
-                }
-              />
-            </ul>
-          </div>
-          <div className="lg:col-span-7">
-            <MapEmbed className="aspect-[4/3] lg:aspect-auto lg:h-full lg:min-h-[32rem]" />
-          </div>
+          <MapEmbed className="aspect-[4/3] lg:col-span-7 lg:col-start-6 lg:row-span-2 lg:row-start-1 lg:aspect-auto lg:h-full lg:min-h-[32rem]" />
+
+          <ul className="divide-y divide-line border-y border-line lg:col-span-5">
+            <ContactRow
+              icon={<Phone className="size-5" aria-hidden="true" />}
+              label="Call"
+              value={
+                <span className="flex flex-wrap gap-x-4">
+                  {site.phones.map((phone) => (
+                    <a key={phone.tel} href={`tel:${phone.tel}`} className={cn("tabular-nums", textLink)}>
+                      {phone.display}
+                    </a>
+                  ))}
+                </span>
+              }
+            />
+            <ContactRow
+              icon={<BrandIcon name="whatsapp" className="size-5" />}
+              label="WhatsApp"
+              value={
+                <a
+                  href={whatsappLink(bookingMessage)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={cn("tabular-nums", textLink)}
+                >
+                  {primaryPhone.display}
+                </a>
+              }
+            />
+            <ContactRow
+              icon={<Mail className="size-5" aria-hidden="true" />}
+              label="Email"
+              value={
+                <a href={emailLink} className={textLink}>
+                  {site.email}
+                </a>
+              }
+            />
+            <ContactRow
+              icon={<BrandIcon name="instagram" className="size-5" />}
+              label="Instagram"
+              value={
+                <a href={site.instagram.url} target="_blank" rel="noopener noreferrer" className={textLink}>
+                  @{site.instagram.handle}
+                </a>
+              }
+            />
+          </ul>
         </div>
       </section>
     </>

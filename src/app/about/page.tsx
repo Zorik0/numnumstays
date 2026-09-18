@@ -2,9 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { BrandIcon } from "@/components/brand-icon";
 import { DoorPlate } from "@/components/door-plate";
-import { button } from "@/components/ui";
+import { button, compactOnPhones } from "@/components/ui";
 import { bookingMessage, whatsappLink } from "@/data/site";
 import { photosFor, stayPath, stays } from "@/data/stays";
+import { cn } from "@/lib/cn";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -40,17 +41,17 @@ export default function AboutPage() {
             BHKs for couples and small groups. No two are decorated alike. One is lavender and mustard, one is
             sky blue, and one has a pink neon sign in the living room.
           </p>
-          <div className="mt-9 flex flex-wrap gap-3">
+          <div data-booking-cta className="mt-9 flex flex-wrap gap-3">
             <a
               href={whatsappLink(bookingMessage)}
               target="_blank"
               rel="noopener noreferrer"
-              className={button.primary}
+              className={cn(button.primary, compactOnPhones)}
             >
               <BrandIcon name="whatsapp" className="size-5" />
               Book on WhatsApp
             </a>
-            <Link href="/stays" className={button.outline}>
+            <Link href="/stays" className={cn(button.outline, compactOnPhones)}>
               See the stays
             </Link>
           </div>

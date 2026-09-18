@@ -15,14 +15,15 @@ export function SiteFooter() {
 
   return (
     <footer className="on-ink bg-ink text-white">
-      <div className="container-page grid gap-12 py-16 md:grid-cols-12 lg:py-20">
-        <div className="md:col-span-4">
+      <div className="container-page grid grid-cols-2 gap-x-6 gap-y-10 py-12 md:grid-cols-12 md:gap-12 md:py-16 lg:py-20">
+        <div className="col-span-2 md:col-span-4">
           <Link href="/" aria-label="NumNum Stays, home" className="inline-block">
-            <Wordmark className="w-28 text-mustard" />
+            <Wordmark className="w-24 text-mustard md:w-28" />
           </Link>
-          <p className="mt-6 max-w-xs text-mist">{site.tagline}</p>
-          <ul className="mt-6 flex gap-2" aria-label="Get in touch">
-            <li>
+          <p className="mt-5 max-w-xs text-mist md:mt-6">{site.tagline}</p>
+          <ul className="mt-5 flex gap-2 md:mt-6" aria-label="Get in touch">
+            {/* Phones already have one WhatsApp button on screen at all times. */}
+            <li className="max-md:hidden">
               <a
                 href={whatsappLink(bookingMessage)}
                 target="_blank"
@@ -97,9 +98,9 @@ export function SiteFooter() {
           </ul>
         </div>
 
-        <div className="md:col-span-2">
+        <div className="col-span-2 md:col-span-2">
           <h2 className="text-sm font-semibold text-white">Info</h2>
-          <ul className="mt-4 space-y-2.5">
+          <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2 md:block md:space-y-2.5">
             <li>
               <Link href="/about" className="text-mist transition-colors hover:text-white">
                 About
