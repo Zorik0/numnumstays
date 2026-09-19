@@ -19,12 +19,13 @@ export type HeroSlide = {
   photo: Photo;
 };
 
-/** Keep in sync with --animate-plate-progress in globals.css. */
+/** Keep in sync with --animate-slide-progress in globals.css. */
 const SLIDE_MS = 6000;
 
 /**
- * A house-shaped window showing one stay at a time, with the door plates
- * underneath as tabs. Advances on its own until someone picks a door.
+ * A square window showing one stay at a time, with the door plates underneath
+ * as tabs. Advances on its own until someone picks a door; a bar across the
+ * foot of the photo counts down to the next one.
  */
 export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
   const count = slides.length;
@@ -112,12 +113,23 @@ export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
                 loading={index === 0 ? "eager" : "lazy"}
                 fetchPriority={index === 0 ? "high" : "auto"}
                 className={cn(
-                  "object-cover transition-opacity duration-700 ease-soft",
-                  index === active ? "opacity-100" : "opacity-0",
+                  "object-cover transition-[opacity,transform] duration-700 ease-soft",
+                  index === active ? "scale-100 opacity-100" : "scale-[1.03] opacity-0",
                 )}
               />
             ) : null,
           )}
+          {autoplay ? (
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-1 bg-ink/70"
+            >
+              <span
+                key={`sweep-${active}`}
+                className="block h-full origin-left animate-slide-progress bg-mustard"
+              />
+            </span>
+          ) : null}
         </Link>
       </div>
 
@@ -168,7 +180,7 @@ export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
                   <span
                     key={`progress-${active}`}
                     aria-hidden="true"
-                    className="absolute inset-x-0 bottom-0 h-[3px] origin-left animate-plate-progress bg-ink/35"
+                    className="absolute inset-x-0 bottom-0 h-[3px] origin-left animate-slide-progress bg-ink/35"
                   />
                 ) : null}
               </button>

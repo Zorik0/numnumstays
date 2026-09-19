@@ -33,10 +33,10 @@
 
   --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
 
-  /* Fills the active door plate while the hero waits to move on (6s, see hero-picker). */
-  --animate-plate-progress: plate-progress 6s linear forwards;
+  /* Counts down the hero's wait before it moves on (6s, see hero-picker). */
+  --animate-slide-progress: slide-progress 6s linear forwards;
 
-  @keyframes plate-progress {
+  @keyframes slide-progress {
     from {
       transform: scaleX(0);
     }
