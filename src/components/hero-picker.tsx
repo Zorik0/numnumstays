@@ -97,7 +97,7 @@ export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
         <Link
           href={current.href}
           aria-label={`See ${current.name}`}
-          className="relative block aspect-square overflow-hidden bg-ink-raised"
+          className="relative block aspect-square overflow-hidden rounded-xl bg-ink-raised"
         >
           {slides.map((slide, index) =>
             loaded.has(index) ? (
