@@ -4,14 +4,13 @@ import { BrandIcon } from "@/components/brand-icon";
 import { DoorPlate } from "@/components/door-plate";
 import { button, compactOnPhones } from "@/components/ui";
 import { bookingMessage, whatsappLink } from "@/data/site";
-import { photosFor, stayPath, stays } from "@/data/stays";
+import { photosFor, stayCount, stayPath, stays } from "@/data/stays";
 import { cn } from "@/lib/cn";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
   title: "About",
-  description:
-    "NumNum Stays offers cosy, stylish and peaceful stays in Saket, South Delhi: seven individually designed homes, studios and rooms.",
+  description: `NumNum Stays offers cosy, stylish and peaceful stays in Saket, South Delhi: ${stayCount} individually designed homes, studios, rooms and 1 BHKs.`,
   path: "/about",
 });
 
@@ -37,9 +36,10 @@ export default function AboutPage() {
             place to come back to.
           </p>
           <p className="mt-5 text-muted">
-            There are seven stays, all in Saket, South Delhi: two 3 BHK homes for groups, and studios, rooms and 1
-            BHKs for couples and small groups. No two are decorated alike. One is lavender and mustard, one is
-            sky blue, and one has a pink neon sign in the living room.
+            There are {stayCount} stays, all in Saket, South Delhi: two 3 BHK homes for groups, studios, rooms and
+            1 BHKs for couples and small groups, and budget 1 BHKs for up to four. No two are decorated alike. One
+            is lavender and mustard, one is Santorini blue and white, one is all black under pink neon, and one has
+            a neon sign in the living room that reads “This must be the place”.
           </p>
           <div data-booking-cta className="mt-9 flex flex-wrap gap-3">
             <a
@@ -86,7 +86,7 @@ export default function AboutPage() {
       <section aria-labelledby="directory-heading" className="on-ink bg-ink py-16 text-white lg:py-24">
         <div className="container-page">
           <h2 id="directory-heading" className="text-section font-semibold">
-            The seven stays at a glance
+            The {stayCount} stays at a glance
           </h2>
           <div className="mt-10 overflow-x-auto">
             <table className="w-full min-w-[40rem] text-left">

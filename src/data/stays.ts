@@ -1,7 +1,7 @@
 import { photosBySlug } from "./photos.generated";
 import type { Photo, Stay, StayGroup } from "./types";
 
-// Listed in door-number order, the way the previous site listed them.
+// The first seven in the order the previous site listed them, then the rest in door-number order.
 export const stays: Stay[] = [
   {
     slug: "ample-house",
@@ -226,6 +226,222 @@ export const stays: Stay[] = [
     featured: [1, 3, 5, 13, 16],
     legacyPaths: ["/room7", "/room7.html"],
   },
+  {
+    slug: "swift",
+    unit: "101",
+    name: "Swift",
+    type: "1 BHK",
+    group: "budget",
+    tagline: "A 1st-floor 1 BHK with daily cleaning, made for longer stays. Sleeps up to 4.",
+    description:
+      "A 1 BHK with an orange sofa and bold posters in the lounge, a bedroom with a grey throw, a kitchen with an induction cooktop and water purifier, and a front balcony. Daily cleaning and fresh linen are included, which makes it a good base for longer stays.",
+    guests: 4,
+    bedrooms: "1 bedroom",
+    beds: "1 queen bed + 1 floor mattress",
+    bathrooms: "1 bathroom",
+    floor: "1st floor, with a lift",
+    parking: "Bike parking only",
+    highlights: [
+      "Complete 1 BHK, about 450 sq ft",
+      "Kitchen with induction, fridge and water purifier",
+      "AC and geyser",
+      "Front balcony",
+      "Daily cleaning and linen changes",
+      "Good for long stays",
+      "Couple friendly",
+    ],
+    notes: ["No car parking. There's space for bikes."],
+    airbnbUrl: "https://www.airbnb.co.in/rooms/1740447149664712477",
+    featured: [1, 3, 9, 4, 16],
+    legacyPaths: [],
+  },
+  {
+    slug: "knights",
+    unit: "401",
+    name: "Knights",
+    type: "1 BHK",
+    group: "budget",
+    tagline: "An all-black 1 BHK lit in pink neon, on the 4th floor with a lift. Sleeps up to 4.",
+    description:
+      "An all-black 1 BHK lit in pink. There's a “Hello Gorgeous” neon above the sofa, a “Fly me to the moon” neon over the bed, a kitchen with an induction cooktop and a front balcony looking out over the rooftops.",
+    guests: 4,
+    bedrooms: "1 bedroom",
+    beds: "1 bed",
+    bathrooms: "1 bathroom",
+    floor: "4th floor, with a lift",
+    parking: "Bike parking only",
+    highlights: [
+      "Complete 1 BHK, done all in black",
+      "Kitchen with induction, fridge and RO water",
+      "AC and geyser",
+      "Front balcony",
+      "Wi-Fi and power backup around the clock",
+      "Self check-in and checkout",
+      "Waiting lounge with a washroom, and luggage drop-off",
+      "Daily housekeeping",
+      "Pets welcome",
+    ],
+    notes: [
+      "No car parking. Bike parking is on the ground floor, so check with the building staff.",
+      "Quiet hours are 10 pm to 7 am.",
+      "Smoking is allowed.",
+    ],
+    airbnbUrl: "https://www.airbnb.co.in/rooms/1738250763080319073",
+    featured: [1, 2, 3, 4, 12],
+    legacyPaths: [],
+  },
+  {
+    slug: "boutique",
+    unit: "402",
+    name: "Boutique",
+    type: "1 BHK",
+    group: "budget",
+    tagline: "Burnt-orange walls with folk-art borders, on the 4th floor with a lift. Sleeps up to 4.",
+    description:
+      "A 1 BHK with burnt-orange feature walls edged in painted folk-art borders. The lounge has a patterned sofa and a floor lamp, the bedroom has bright printed bedding, and there's a kitchen with an induction cooktop and a front balcony.",
+    guests: 4,
+    bedrooms: "1 bedroom",
+    beds: "1 queen bed + 1 floor mattress",
+    bathrooms: "1 bathroom",
+    floor: "4th floor, with a lift",
+    parking: "Bike parking only",
+    highlights: [
+      "Complete 1 BHK, about 450 sq ft",
+      "Kitchen with induction cooktop",
+      "AC and geyser",
+      "Front balcony",
+      "Partial power backup",
+      "Couple friendly",
+    ],
+    notes: [
+      "No car parking. There's space for bikes.",
+      "Power backup doesn't run the AC or geyser.",
+    ],
+    airbnbUrl: "https://www.airbnb.co.in/rooms/1730254701978103655",
+    featured: [1, 3, 12, 16, 6],
+    legacyPaths: [],
+  },
+  {
+    slug: "calm-boho",
+    unit: "502",
+    name: "Calm Boho",
+    type: "1 BHK",
+    group: "budget",
+    tagline: "A calm, boho 1 BHK on the 5th floor with a lift. Sleeps up to 4.",
+    description:
+      "A boho 1 BHK in cream and terracotta, with trailing plants, a floor lamp and a cushioned sofa in the lounge, a macramé wall hanging over the bed, a kitchen with an induction cooktop and a front balcony.",
+    guests: 4,
+    bedrooms: "1 bedroom",
+    beds: "1 double bed + 1 floor mattress",
+    bathrooms: "1 bathroom",
+    floor: "5th floor, with a lift",
+    parking: "Bike parking only",
+    highlights: [
+      "Complete 1 BHK, about 450 sq ft",
+      "Kitchen with induction cooktop",
+      "AC and geyser",
+      "Front balcony",
+      "Partial power backup",
+      "Couple friendly",
+    ],
+    notes: [
+      "No car parking. There's space for bikes.",
+      "Power backup doesn't run the AC or geyser.",
+      "Quiet hours are 10 pm to 7 am.",
+      "No parties or events, please.",
+    ],
+    airbnbUrl: "https://www.airbnb.co.in/rooms/1729635699422052564",
+    featured: [1, 2, 11, 22, 21],
+    legacyPaths: [],
+  },
+  {
+    slug: "santorini-bliss",
+    unit: "601",
+    name: "Santorini Bliss",
+    type: "1 BHK",
+    group: "compact",
+    tagline: "A blue-and-white penthouse 1 BHK with a balcony. Sleeps up to 4.",
+    description:
+      "A top-floor 1 BHK in Santorini blue and white. The lounge has a sofa, woven poufs and prints of the Greek islands, the bedroom has a cobalt wall with a macramé sunburst, and there's a kitchen with blue patterned tiles and a balcony over the rooftops.",
+    guests: 4,
+    bedrooms: "1 bedroom",
+    beds: "1 queen bed + 1 floor mattress",
+    bathrooms: "1 bathroom",
+    floor: "6th floor (penthouse)",
+    parking: "Bike parking only",
+    highlights: [
+      "Complete 1 BHK penthouse, about 450 sq ft",
+      "Kitchen with induction, fridge and cookware",
+      "AC and geyser",
+      "Balcony for fresh air",
+      "Power backup for essentials",
+      "Couple friendly",
+    ],
+    notes: ["No car parking. There's space for bikes."],
+    airbnbUrl: "https://www.airbnb.co.in/rooms/1730258574508854290",
+    featured: [1, 3, 10, 7, 20],
+    legacyPaths: [],
+  },
+  {
+    slug: "uni-pod",
+    unit: "G2",
+    name: "Uni Pod",
+    type: "1 BHK",
+    group: "compact",
+    tagline: "A ground-floor 1 BHK with a gold-veined bedroom wall, for two.",
+    description:
+      "A complete 1 BHK on the ground floor. The lounge has purple cove lights and a black velvet sofa, the bedroom has a gold-veined feature wall, AC and a TV, and the kitchen has an induction cooktop and RO water.",
+    guests: 2,
+    bedrooms: "1 bedroom",
+    beds: "1 queen bed",
+    bathrooms: "1 bathroom",
+    floor: "Ground floor",
+    parking: "Bike parking only",
+    highlights: [
+      "Complete 1 BHK, no sharing",
+      "Kitchen with induction, fridge, kettle, RO water and cookware",
+      "AC in the bedroom",
+      "Wi-Fi and TV",
+      "Partial power backup",
+      "Self check-in",
+      "Couple friendly",
+      "On the ground floor",
+    ],
+    notes: ["No car parking. There's space for 1 bike."],
+    airbnbUrl: "https://www.airbnb.co.in/rooms/1780107427811762342",
+    featured: [1, 2, 5, 12, 22],
+    legacyPaths: [],
+  },
+  {
+    slug: "neo-pod",
+    unit: "G3",
+    name: "Neo Pod",
+    type: "1 BHK",
+    group: "compact",
+    tagline: "A ground-floor 1 BHK with purple lights and a marble feature wall, for two.",
+    description:
+      "A complete 1 BHK on the ground floor. The lounge has a green velvet sofa against a gold-veined marble wall under purple cove lights, and there's a kitchen with an induction cooktop and RO water, and a bedroom with its own AC and TV.",
+    guests: 2,
+    bedrooms: "1 bedroom",
+    beds: "1 double bed",
+    bathrooms: "1 bathroom",
+    floor: "Ground floor",
+    parking: "Bike parking only",
+    highlights: [
+      "Complete 1 BHK, no sharing",
+      "Kitchen with induction, fridge, kettle, RO water and cookware",
+      "AC in the bedroom",
+      "Wi-Fi and TV",
+      "Partial power backup",
+      "Self check-in",
+      "Couple friendly",
+      "On the ground floor",
+    ],
+    notes: ["No car parking. There's space for 1 bike."],
+    airbnbUrl: "https://www.airbnb.co.in/rooms/1778993641739136442",
+    featured: [1, 3, 14, 8, 17],
+    legacyPaths: [],
+  },
 ];
 
 export const groups: Record<StayGroup, { title: string; intro: string }> = {
@@ -240,9 +456,20 @@ export const groups: Record<StayGroup, { title: string; intro: string }> = {
   },
   budget: {
     title: "Budget stays",
-    intro: "Clean, comfortable places at a lower price.",
+    intro: "1 BHKs with a kitchen and a front balcony, in a building with a lift. Room for four, for less.",
   },
 };
+
+const numberWords = [
+  "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+  "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty",
+];
+
+/** How many stays there are, as a word for running text, e.g. "fourteen". */
+export const stayCount = numberWords[stays.length] ?? String(stays.length);
+
+/** The same, for the start of a sentence, e.g. "Fourteen". */
+export const stayCountCapitalised = stayCount.charAt(0).toUpperCase() + stayCount.slice(1);
 
 export function getStay(slug: string) {
   return stays.find((stay) => stay.slug === slug);

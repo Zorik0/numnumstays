@@ -1,6 +1,6 @@
 # NumNum Stays
 
-The website for [NumNum Stays](https://numnumstays.com): seven cosy, colourful short-stay apartments in Saket, South Delhi. Built with Next.js 16 (App Router), React 19 and Tailwind CSS 4, and deployed on Vercel.
+The website for [NumNum Stays](https://numnumstays.com): cosy, colourful short-stay apartments in Saket, South Delhi. Built with Next.js 16 (App Router), React 19 and Tailwind CSS 4, and deployed on Vercel.
 
 ## Pages
 
@@ -9,7 +9,7 @@ The website for [NumNum Stays](https://numnumstays.com): seven cosy, colourful s
 | `/` | Home: hero with the door-number picker, all stays, good-to-know facts, how to book, contact and map |
 | `/stays` | All stays, grouped into 3 BHK homes, smaller places and budget stays |
 | `/stays/[slug]` | One stay: photo mosaic, facts, highlights, notes, map, every photo in a lightbox, booking links |
-| `/about` | About NumNum Stays, plus a table of all seven stays |
+| `/about` | About NumNum Stays, plus a table of every stay |
 | `/terms` | Terms & conditions, check-in and checkout times |
 
 Old URLs from the previous site (`/room1` to `/room7`, `/about.html`, `/terms.html`) redirect permanently to their new pages. See `next.config.ts`.
@@ -51,6 +51,9 @@ This regenerates `src/data/photos.generated.ts` with each photo's size and a sma
 2. Add an entry to `stays` in `src/data/stays.ts`. Its `group` picks the section it's listed under: `"homes"` (3 BHK homes), `"compact"` (studios, rooms and 1 BHKs) or `"budget"` (budget stays). The Budget stays section only appears once it has at least one stay.
 3. Run `npm run photos`.
 4. Add a 1200 × 630 share image at `public/og/<new-slug>.jpg`. It's used when the link is shared on WhatsApp or social media.
+5. Check the home page's "Good to know" facts (lifts, parking, power backup, luggage drop-off). They name stays by hand.
+
+The number of stays in the copy ("Fourteen cosy, colourful stays…") is worked out from `stays`, so it updates on its own.
 
 ## Project layout
 

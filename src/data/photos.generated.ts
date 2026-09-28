@@ -232,6 +232,328 @@ export const photosBySlug: Record<string, Photo[]> = {
       "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkAA4BaJQBOgBY0wF7AAPzS0/PZaWmDABYK/DZuJkH+rDZBL1x5cSPb0ifRHMULSeIHw1pg0PvoAAA="
     }
   ],
+  "boutique": [
+    {
+      "src": "/stays/boutique/01.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAQCdASoQAAkAA4BaJagCdACArlyMAP62PvVgd/SL5xvvWx7jc3idT5S9JshdbA38fhkcDbzJfJxSc1DVBVuv2s9GZcVBqF7F1u7bu7t4cue6jXZDBp+XO7AAAA=="
+    },
+    {
+      "src": "/stays/boutique/02.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAQCdASoQAAkAA4BaJYgCdADE/b4AAOIfe3K5wYzjOl/CJqTRyjW1jcFsZcRw/6GlHiTs1KKg1Lg5ongs6cmfs5qwVonoXwXvLNRLeQp0LAAA"
+    },
+    {
+      "src": "/stays/boutique/03.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAQCdASoQAAkAA4BaJaACdADOj7oRAAD+HiU6s6jV0UIpXArLv8eMk5FK25M5CecKV1hvqfRt8X6XRKDtzwbA8HwmQQj6NuMhFThQV/Jq/bssmgRWSheqnjuiMAAA"
+    },
+    {
+      "src": "/stays/boutique/04.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAkAA4BaJbACdAC3ZHt+gAD+gZWBTgKVO9ar/m6qLvyd/yAaxmYaDHU3oDeYIE8+GntUvVm4RAgtJs2Yn8Dfv+hctSKtAMHNTSp8A8DAAAAA"
+    },
+    {
+      "src": "/stays/boutique/05.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJZACdACq20Id6AD+0KM6QU3RtgPi+8oK6KumqHXHIFRXxF8PFS2Ma6EcyBYTagrYgadzRhiXqggoo2WKKdAA"
+    },
+    {
+      "src": "/stays/boutique/06.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAkAA4BaJZQC7AEfv3iHNIgA/M7R6EXAUlLrezQQXFO5SpT2kcQieojvYI3FhN9kyG8ZAAA="
+    },
+    {
+      "src": "/stays/boutique/07.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAkAA4BaJZQAAn+5nZDzsAD4wGMASqcokujC9pxbPGsO6V57auyaACuZ7MNdlk8hkCWL3m7l4AAA"
+    },
+    {
+      "src": "/stays/boutique/08.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAkAA4BaJZQC7AEQPddaITAAAMsmuHZ50rgQvZ12aGeHNxY9XhFi2UK+wZ35qJGL+G57VwoUBZvFKrsYAA=="
+    },
+    {
+      "src": "/stays/boutique/09.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJZgC7AEVVhw4UAAA/uToigrhAWsYgLFLL9Twx5AdqFpoTWc4nSUBZItTe7Ub6FY5PWliM9F2KAAA"
+    },
+    {
+      "src": "/stays/boutique/10.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAkAA4BaJZQAAuaumt+wAPjIPo7k1UhpgSEwtRjWLwbYK2HD7vgoxizEx0xeQ196Vhk5aNDQnHb4Bh6UsAAA"
+    },
+    {
+      "src": "/stays/boutique/11.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAkAA4BaJbACdADOahFu4AD+7dUav68NHwmdnK9dfHoRRbCmdiNW0clWRRB+Rvnu1xLdhQ5432sb/7KYQvOy3/Zgfx1JLj5OlP6ufKaON8LPAAA="
+    },
+    {
+      "src": "/stays/boutique/12.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAkAA4BaJbACdADwhhlaY4YA8BydX2G53L+FRlI+xsr0Cb161980Epstm7OO9mHyHwjeRlx+Nz/0WCx6BkFO/XywOyhnNbzg1/10zQCUSRCX/QJwAA=="
+    },
+    {
+      "src": "/stays/boutique/13.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQAQCdASoQAAkAA4BaJbACdABV8gAA/vCHJIknrlXReGsSohp73RjtpsXAJX94kG4a+ZawYCt+DyPpOufqGyAJp4u5NyuqrHO6eiLjMK31LStOj1J7FpGKRoiVT/DVAAA="
+    },
+    {
+      "src": "/stays/boutique/14.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJQBOgBo6H2/MAAD+mA1NDy35dTMnxC59VbuUB6y7na5GPJz/RmkH7Kvk+maMEfxOusS/VdkfJy8AAAA="
+    },
+    {
+      "src": "/stays/boutique/15.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoQAAkAA4BaJZACdABoXJAA/Tb43vfE6OMwTIxt9ZMOxS8wagcZakcChziFt5+OjumJY0frV778rcFr1otfcFcWWDrAWAAA"
+    },
+    {
+      "src": "/stays/boutique/16.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAkAA4BaJaACdAD7ABFCRtwA/qlV789UqvUXqzVlQ7ZIEFsdspzFTuyspjeUIDBK0EOsUxOGHkpcBx5rdguMoZ+6l0AA"
+    },
+    {
+      "src": "/stays/boutique/17.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAQCdASoQAAkAA4BaJQBOgBGwtMAA9pktQpIwgO9rfXyaTGHnFP2KqqQwaTq3Jc7Ad1UeCMOTFbfuVo6J9gFgAAA="
+    },
+    {
+      "src": "/stays/boutique/18.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAQCdASoQAAkAA4BaJYgCdACBqegAzje+R2QggWByNI/oGrUpa9okyAe2+WL7xPAj8f97UvdOMZgtWjRoNe/moSVs7pEWDWcZsHBHIAA="
+    },
+    {
+      "src": "/stays/boutique/19.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAQCdASoQAAkAA4BaJaQAAo6nHAAA+GHIULRH80Y/BaoIbuWdOjCCMVByJP2rSS5TXy0Gza4AAA=="
+    },
+    {
+      "src": "/stays/boutique/20.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAQCdASoQAAkAA4BaJZwAAeuN4cAA/rWP9d5Wyso2xn/CR3TZdMHu7ZeyNkRWc1jJ0Qqf/QWIZgAA"
+    },
+    {
+      "src": "/stays/boutique/21.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoQAAkAA4BaJYgCdAC3NixgAP63ZgdozUcfDDfE+8fBj3BkryIvHeSXRkIUqAGYMEle3FW/Gu3WNB8Vi6vKXrk16s+WUAAA"
+    },
+    {
+      "src": "/stays/boutique/22.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAkAA4BaJYwCdADSGMON4ADOFZDKE80aUrMJ2A/tcx3UQ5N7838hQeWRegG59jSawex15c1QAAAA"
+    },
+    {
+      "src": "/stays/boutique/23.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkAA4BaJYwAAtagmeQAAP7jUQLJb6b0rLrMQVofbU0nvB9+PsTEJx/b554FgqqFg1hfDQ078v9oAAA="
+    },
+    {
+      "src": "/stays/boutique/24.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAkAA4BaJZQAAven+cCCVgAA/Oe104Is5mJ3xqjxPIquGV2HEMyFRYl/NKct982snZcNBPhSEVkHgAA="
+    }
+  ],
+  "calm-boho": [
+    {
+      "src": "/stays/calm-boho/01.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAkAA4BaJbACdAED/P9UtvAA/rXo8p2J46S3N5d+D4forvB1/RH76bTS2eQuouuG2QA7WWfwOLF8c+KbgLEGZy8f98D69eVW5wb3KXdnaIdLjcAAAA=="
+    },
+    {
+      "src": "/stays/calm-boho/02.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAkAA4BaJQBOj+ACOBDSw3IAAP2NPAG2YQ0NbS3ItYJH+Ef3Vi0euRCqe9Bg4u+HrVC/hAAFBeTy27p1mpFHabb6ROg9q9gfECUQAAA="
+    },
+    {
+      "src": "/stays/calm-boho/03.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAkAA4BaJQBOgBZzkp9YANvxee7jqVAk5/UuhRIs4PS78F8fSsbsyTu8/DhBmW/LJga/VlaliYAA"
+    },
+    {
+      "src": "/stays/calm-boho/04.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAkAA4BaJQBOgCBsaGhy5JkAAP7ScYu44wXVXHBizxzcsbnyJ517+lVIi4Xa5tl6ZUb8ctj5n2ywxKAhhxHESoEtHdN1C4AAAA=="
+    },
+    {
+      "src": "/stays/calm-boho/05.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAkAA4BaJYwCdAC8I4KKgADNwv18tmM7OH6TQNjUq/V2gzv566rd7ZsYdmBpKlufI7lNTDyJQ6rivXzIhgoi7yTQAA=="
+    },
+    {
+      "src": "/stays/calm-boho/06.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAQCdASoQAAkAA4BaJYgCdABoXJAA/sI+REuoDCxLBWQOrD57ScPHE69bmwCqyhGfXEGmhsCj7Aodd/Kjz66GmZLiCFqH8TWXEoE4AAA="
+    },
+    {
+      "src": "/stays/calm-boho/07.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAkAA4BaJQBdgCDp/v167AD+0NsEveXI2YfxtZczxdKzj1Z5J9ulliks1A+na+xpYxNR2UELmBxHKsJ9bVAA"
+    },
+    {
+      "src": "/stays/calm-boho/08.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAkAA4BaJZQAAn/Fa6IYAPaN6GFTN4ScsXcRkkBHLoSE+5gGGRBGUGrqZ1Ly8pXSgymwqAA="
+    },
+    {
+      "src": "/stays/calm-boho/09.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAkAA4BaJZwC7ADbeuhbgAD42yqRy3IR+LQv34En2hR9Y2N0sHJ8VKcKvkIg9/OPe1fTaemleRJIwryWfLFiWfbAAA=="
+    },
+    {
+      "src": "/stays/calm-boho/10.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAkAA4BaJYwAApOjakhhgAD9eC+dmB+PSfFTjen+cDpqroJDyuqnPF2rYb2OZTqKdx2DGWmD9Lo0yQG3/tmD7v5MFI0eegAAAA=="
+    },
+    {
+      "src": "/stays/calm-boho/11.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAkAA4BaJQBOgButC6KOAAD+m3q6xD1gBm6HVwL2/FP48qVOyntvP4zYBOQhA+eNiV0Mbq756u7u5JbMaBKCCNxQwgmO2gWyNkIAAAA="
+    },
+    {
+      "src": "/stays/calm-boho/12.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAkAA4BaJYwCdADOBF6wAP6Uvs4d+GE4VVgFK3//1ifu1IgHxrnNp0lFdwogpMFdBG5Ika/c7bff77hy2AAA"
+    },
+    {
+      "src": "/stays/calm-boho/13.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAkAA4BaJQBOgCPNhU/8iADhnEnpKKpn/XY53u7+t1/SessiIVpqf6ZXMGoAgPe02nXoscJRQmOz92PLoAAA"
+    },
+    {
+      "src": "/stays/calm-boho/14.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAkAA4BaJQBOgButC6KOAAD+m3q6xD1gBm6HVwL2/FP48qVOyntvP4zYBOQhA+eNiV0Mbq756u7u5JbMaBKCCNxQwgmO2gWyNkIAAAA="
+    },
+    {
+      "src": "/stays/calm-boho/15.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAkAA4BaJQBOgBSmAPsAAPfQvNQM6mo9MKlXyO31BWgc1eGFr+rPrr4b+fSNN3JHIpm+spNlr9vSIwyB2AWAAAA="
+    },
+    {
+      "src": "/stays/calm-boho/16.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAkAA4BaJQBOgBwu1thIAAD+3ae3nVFnS0hyq4cKQfRUcZc/Qm4JrdrPTsOixAWLIp3k/S67Hl0AAAA="
+    },
+    {
+      "src": "/stays/calm-boho/17.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAkAA4BaJYgCdAD0Mcv6uAD86kZA7GncrlyU2PFVTtmcmHI0nDhl8c7iM0tBNaosmKuRpZUb0l0LXKv27AAA"
+    },
+    {
+      "src": "/stays/calm-boho/18.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAkAA4BaJQBOgB/OoJwTEAD+l2bUxMZv9bKCpZm9j5fFRcmjTpfmSVU2sWwRYJoF/Q79DNStHqfaAAA="
+    },
+    {
+      "src": "/stays/calm-boho/19.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAkAA4BaJaQAAuzX37jhYAAA/pmAbVbg88ahtAXp3RF+DfkClMrtRu9Cp1tKQI+arBdBf10FrIAA"
+    },
+    {
+      "src": "/stays/calm-boho/20.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkAA4BaJaQAAi0HFV+GAADyjNg74umV50ktWbkXCn/Y3cL/9lWdwZS4IYgBphHYAAAA"
+    },
+    {
+      "src": "/stays/calm-boho/21.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJZQCdAC90B8AiAAA+W1I+vep/EPJgDv1FaM04Buyo41Mk6zTHy6e5r+UysvoHUdsQEnwpn5OUxQ+OQf538zQgAA="
+    },
+    {
+      "src": "/stays/calm-boho/22.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAkAA4BaJYgCdACY+MprgAD0YN5lsK6Ogr4psimrr2knftSFg62MTAQzcnlmYQucLcKGjQX+nxoWsl3LemY3M/lvkE1EFASAAA=="
+    },
+    {
+      "src": "/stays/calm-boho/23.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJZQC7ACzy7fpgAD6nK0xNL7MAOlj+6Ta8Kra2H5zYzWmsMbP9gRhz01g+ZuVTW3mF5o6CKlXaPBgwAA="
+    },
+    {
+      "src": "/stays/calm-boho/24.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJbACsAEQMtZhjgAA4gb1b7MLde16KnvIrjV+nxwdoats3o19U8kJGIeSyfvFpcOEoJUhUdYhHQWUn0kCFnbSAAA="
+    },
+    {
+      "src": "/stays/calm-boho/25.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAkAA4BaJbAC7AEQAFGYUE0wAPqfQqnIrb1i//inSuijChO+0DmriUTTqaGSGBg4n/LJRLHLCwHso77poPCfTtzSwAAA"
+    },
+    {
+      "src": "/stays/calm-boho/26.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAkAA4BaJZQCw7DMit2OrgAA/WmOWYXrHBEHLo+9Qt5DF0moHI+nxXu+Z4SJ4vgKewbQjWc/tVwAAAA="
+    },
+    {
+      "src": "/stays/calm-boho/27.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkAA4BaJaQAAi0HFV+GAADyjNg74umV50ktWbkXCn/Y3cL/9lWdwZS4IYgBphHYAAAA"
+    },
+    {
+      "src": "/stays/calm-boho/28.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAkAA4BaJaQAAsZmcKAAAP7G1bTMVw6so3JwnzDoKa5jL6U86hUlWAgTzc2N94owAAAA"
+    },
+    {
+      "src": "/stays/calm-boho/29.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAkAA4BaJZwAAemtCQAA/rXfPZUJ5eTgBuH16i0e1Pc3Q3b7Tx2GBlii1fD4sXY9x48RnKmv2j/SEAAAAA=="
+    }
+  ],
   "chillax-pod": [
     {
       "src": "/stays/chillax-pod/01.webp",
@@ -580,6 +902,110 @@ export const photosBySlug: Record<string, Photo[]> = {
       "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAkAA4BaJbACdADSJtScgAD+g00ODEBB6Q99uG1XuOrtk5YlBkM27fibmjs1y3uOX5tiw73wxW8hjTgtsz+ZIQAAAA=="
     }
   ],
+  "knights": [
+    {
+      "src": "/stays/knights/01.webp",
+      "width": 1920,
+      "height": 1079,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAkAA4BaJbACw7DxJeSUAAD+978t3n5pVBNf8BuTodDodaJNA0bCpL8cKpbPyBHWoFEYgQzDYr/OVVCObZAQ3/fJ8o3+TWdYAAAA"
+    },
+    {
+      "src": "/stays/knights/02.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAkAA4BaJbACdAELgq0OdAAA/umuU3L5KM48vcHwHLSVaEpBJj16gRmOXuRB5mfdHoXROekCBV+vF0/qo2juUnjUgOn0P7ehn7Z2QhjeAAAA"
+    },
+    {
+      "src": "/stays/knights/03.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAQCdASoQAAkAA4BaJbAC7ADQY44QAP71ooAJ1TLaQzY8hLDz1gIyKi9Mtt5ZfOqUmgUf39kYdMHG6PgVhkWR96slcgRLO/DzhyvyRj0DauwuNkoBbNW9fgA="
+    },
+    {
+      "src": "/stays/knights/04.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoQAAkAA4BaJQAAQGW7yGOAAP69tDE/D82eBlcl/Dx2+GVSDvsKLs7h4y48pmG40wfdQ8LmHr46XVhL2kN5r3m9w+1MRLJIAAA="
+    },
+    {
+      "src": "/stays/knights/05.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAkAA4BaJZgCdADpz/aRE9gA/veH3NQjIvjkbl7s+jpjxnoVX9s/oyvGThqysxNSPVh6+MLBMWT5mW+IJFHnk/drpMVUeSmt4jNM6UopyB23hBVAUAAA"
+    },
+    {
+      "src": "/stays/knights/06.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJbAAAuu588rXaAD+9e9DQZZfpxghHCZ9nP/2NCR7QrfxRk2dgn07P/9pzAzOTP7+U2mWnLr/eAzmKFnhgzN4g+9zFCieauQAAA=="
+    },
+    {
+      "src": "/stays/knights/07.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAQCdASoQAAkAA4BaJaACdACZ9PNIAP7voQ/NCSPCMWu2oH+VvOt7YhVFZYACu3t7/MWCHHo/V66ng1Dn1m7EwH0gOp059kEGQKVNL/Bb5AAA"
+    },
+    {
+      "src": "/stays/knights/08.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJbAAAxf3eIt7EAD+7Jhu4zwI87YoK6kjyvi6O3p/T4o/wuIjYQo+vCRzAMaq2f/mGMHHDpNad0+AAAA="
+    },
+    {
+      "src": "/stays/knights/09.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAkAA4BaJbACdADp2bd0+QAA/vbX4lTx+bAXKd/KFUvF+3Td35tUukjLQg9/eP9AfK9mePx+vtVmGZa+ddGtwAA="
+    },
+    {
+      "src": "/stays/knights/10.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAkAA4BaJaQAAxO6YmXLwAD+lpZ+Kar1aKz6ASuCSx/Le+7vml8ueVvRe0i4hwYty3r4EAAAAA=="
+    },
+    {
+      "src": "/stays/knights/11.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAQCdASoQAAkAA4BaJaQAAeHIQkAA/ug6vhjsqDz3vLmwHVtDbL+5qia8J+QO+EMFEMFxgFLezGoKPNUeXOgAAAA="
+    },
+    {
+      "src": "/stays/knights/12.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJbAC7ADdKNkemvAA/vbXlw/zGgSblrc724vf623KT+1abUlf50S5op8AS1VZo2kKb9naO+KOSgmebYCYalBLgAA="
+    },
+    {
+      "src": "/stays/knights/13.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAkAA4BaJbAC7ADw6Y4Uc4AA/vhWS1Q3dXJj4zAoSVsmUJBT83LSphzitW7mqCrIQ++nvLkiGv+tfGgtM0GiQAA="
+    },
+    {
+      "src": "/stays/knights/14.webp",
+      "width": 1920,
+      "height": 1082,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAkAA4BaJbACdADDQfpEAAD+9vHkF4kgOfEYq5y9eVMOYVX4tYX0Y11IycW9wHjbqE5mINg08E5g76YKyZVTvy2owO/1AAA="
+    },
+    {
+      "src": "/stays/knights/15.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoQAAkAA4BaJZgC7ADhepaPYAD+9th9WphmDmLwz3fqwtDjUm+kqJqHrl7AcKCHBcVSZxll8+B98vkNul6aMsCgczCp/u/V91HwMNlS+07Pjkhf8AAAAA=="
+    },
+    {
+      "src": "/stays/knights/16.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAkAA4BaJZgCdAERH7dfTwUgAP74TvueTnxKswuYFxVJOSum+ozyX7iaYyXi1wvB2C9s3hNneXEEAAA="
+    },
+    {
+      "src": "/stays/knights/17.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAQCdASoQAAkAA4BaJZwAAeg4tKwA/u2GB87XSizEBdCJKv/Y75h9K1yHwPg6eG7c2/9+yIOc8sx9ulgiKrKEAAA="
+    }
+  ],
   "light-house": [
     {
       "src": "/stays/light-house/01.webp",
@@ -682,6 +1108,316 @@ export const photosBySlug: Record<string, Photo[]> = {
       "width": 1800,
       "height": 1013,
       "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAkAA4BaJZgCdADbnkV/AAD4RdQgFhk94weQpcXc8C8O68RFbvEQVJTAkPplid451+dzfXfCbsMOPv9TZc1JpWNAAA=="
+    }
+  ],
+  "neo-pod": [
+    {
+      "src": "/stays/neo-pod/01.webp",
+      "width": 1920,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAQCdASoQAAkAA4BaJQBOgBQbNEQAAP7KqQzeWYjv+dQ/vhnlTf2nwsN0Ds3prYO/ZfY0TZiMLiCqBUH6pTUynta2vNBf9bLPPthTEAm5O89LQ9hU4QoYgSl5LGqlb+AAAA=="
+    },
+    {
+      "src": "/stays/neo-pod/02.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJZQCdAC6RAEUIAD5d69zfHnocy6QbrPgiPV7r3lu0VXzD6n4ry0mMMMjYxtQ+3L9zMpJ7DYQsaP0/irn+Tdyj2gBJwf1CtCAAA=="
+    },
+    {
+      "src": "/stays/neo-pod/03.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAQCdASoQAAkAA4BaJbACw7BWBNAA/ktzNvmCsWMV6WIs8eczyh4oL40i5OYIsBsl19NpuHbcyE18V5nQViTMo51gRQwxHRvk31o/nENhAAAA"
+    },
+    {
+      "src": "/stays/neo-pod/04.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAkAA4BaJbAC7AYvXlM+esKE0AD+7QE0Fxrm+DwO2sojJOPeVClCLiw0esF3XzfJqGkzmwHVssP+NBTSbc/e0W34AAAA"
+    },
+    {
+      "src": "/stays/neo-pod/05.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAQCdASoQAAkAA4BaJQBOgBJpp3YAAP6DlMm9qVPtEymHy1xVP8Ol7gXtVkOde+oFVDE5Mqqr6i82xz2ZdPXFROMoQDIsYigmMR2A0g7xt+IAAAA="
+    },
+    {
+      "src": "/stays/neo-pod/06.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoQAAkAA4BaJQBOgCBqkHUAAP2h3s/f8xr/2MCt3nake8PWJFcKewwcckBxFsUt+j3JYHpAEmOyujPzgp36gN/mt2uGw4AA"
+    },
+    {
+      "src": "/stays/neo-pod/07.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAkAA4BaJYwCdAEWaWdY69qAAP7BxifmVQKCWKNrN52CC2ESS+/iSa9TWukVUk0xE/wCzWZTLTwicxmGiC3rtmmqZcEFlT1cAA=="
+    },
+    {
+      "src": "/stays/neo-pod/08.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAkAA4BaJZwAAxcCaW5V9OgA/rX5J/7gmNOKNOyKCY5HIp2wVzi9P5IXvUzrg0W73gvx23MAPHHi6FAAAA=="
+    },
+    {
+      "src": "/stays/neo-pod/09.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAkAA4BaJZQCdAEag6bUeAD+7ymYT9lIyvi1sMQfLEiToH5B8TALUw9JlITZUa7cY9cikJsZDgAA"
+    },
+    {
+      "src": "/stays/neo-pod/10.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAkAA4BaJZQC7AEQ8VQPNAD82RCeQdzqOYHJLl3iduLTQnh/7qgirh9uknVeTINItPR5V2V22ax1myaogAAA"
+    },
+    {
+      "src": "/stays/neo-pod/11.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoQAAkAA4BaJZQAAgA8+MgAAPJv6Pdc1d7767BZnHzCSXDrVRqYy/j4FGqCfvXOQQ89ficPLpds5a30ciHq7h4mGZfmBbIAAAA="
+    },
+    {
+      "src": "/stays/neo-pod/12.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAkAA4BaJaQAAvzsChN6AAD+x1M7/n26Qwolf4uyDuS8E1zv0m6qg9ICozXFAyi3vcVgD95DtOAAAAA="
+    },
+    {
+      "src": "/stays/neo-pod/13.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoQAAkAA4BaJZwAAhWJ3/u4AP6Rp8m58a4eb32Z0/lATsot2n7/sCwI8wXRi3VBIH4yy9DG1oAcAA=="
+    },
+    {
+      "src": "/stays/neo-pod/14.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAkAA4BaJYwC7AC2UOuhQAD+jzA8YAC54kaAkt8PpmFpMTEfudXBfVkbjecJzJutWGID2vpEYxGMVbuZa6zqpS3jObZCoQVQAA=="
+    },
+    {
+      "src": "/stays/neo-pod/15.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAkAA4BaJZQCdAD0Z/2taIAA/flNuZQlknJ0ust1wkLhg9a54X3Qv4s9r00VTxmIx/nrnT1Y7NgxBQAAAA=="
+    },
+    {
+      "src": "/stays/neo-pod/16.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAkAA4BaJQBOgB9TH9RsosQAAPa2HClV2QlIQM4xLM0Rba0x7WTqV2txX+nQdrpGjkC6TAIlu9Cek3iC4TvqMExvdBVAKD2sYgi3IXQAAA=="
+    },
+    {
+      "src": "/stays/neo-pod/17.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAkAA4BaJYgC7AEQ0EXLI+iAAP7nZtwVjVjQ0KF042HeZLKSYNHczj6xV7w5WupiQMOeq+kwFGeYGmu8DK652z6g4qym5z4U7DAA"
+    },
+    {
+      "src": "/stays/neo-pod/18.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkAA4BaJQBOgCFU16sKywAAzhpJcdo3xSYITUs7fr+7zhcrCJ+wlZZrpX4E6EqAyRmO3Rzkj1KDQyLz+6Kil4AAAA=="
+    },
+    {
+      "src": "/stays/neo-pod/19.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJYwCdACXe1o/gAD+o39B9ql3u6tI6/x6Powvb3bNUowVtZCkVv6Y2sQlydh0yF5d+rkiauQdT9+NAAA="
+    },
+    {
+      "src": "/stays/neo-pod/20.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAkAA4BaJZgAAtT/uYsQAP7G7NPg99EU41MybojIdXXZ9vIA3l45cm4z+4OdcYs19AK/P9VhrE62H+q8RhYA"
+    },
+    {
+      "src": "/stays/neo-pod/21.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAkAA4BaJZwC7AEJ9qbruAAA4nSHMee8HzxHPyg/6fR+TuFYL1lCrzo7GMkFvtqFBVwzXVNXuqjGkoAAAA=="
+    },
+    {
+      "src": "/stays/neo-pod/22.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoQAAkAA4BaJZwAAcL7zCmAAP4E5rGZytL+B+79Myn8CWIyWWs0jmUQWkSOVdPjrEcsh+k3JZQUAA=="
+    },
+    {
+      "src": "/stays/neo-pod/23.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAkAA4BaJYwCdADGTNA5gAD4zidT14X9DkMxeGQxrZNc1YtlD3L3rEs1x8Yv8SXbr1oAha2wAA=="
+    },
+    {
+      "src": "/stays/neo-pod/24.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAkAA4BaJZQCdADwbIFf4YAA/uZM2bBa+xBJGYtueoAjWChaBu6Vvl0Dxzg51NgeygngAkYlm0pgAAA="
+    },
+    {
+      "src": "/stays/neo-pod/25.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAkAA4BaJQBOgBxtz3pIAP5hFa1mXBoMFR9JbFVUN++xw5KrvIX5aOJRu5Kqp5uWMwqw7mJ9Rp4j78NJWAAA"
+    }
+  ],
+  "santorini-bliss": [
+    {
+      "src": "/stays/santorini-bliss/01.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwAgCdASoQAAkAA4BaJagCdAEQg/MHUS7gAADNoUP//nEg4UNWP8vaX3gilXYe1TqA7nP2BWWXtZ/DiJRAbvhEqCYTL2ubXsFHdvzOq651pdLYRQTzj2S/Olmy9oMahpFwQsR2L2fWqoEAAAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/02.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAkAA4BaJYgCdH8AFMyOp3MoAAD+5syRletdID78UY0hUcjrGja6VwTz/xZ/xidSp3AduU7nWfseoQrAT77ghalznL/BsToaOs1uAIsBvGFFgAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/03.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAkAA4BaJQBOj+ACm9nq8YAAzj6atsu8j5ODwdSgo2RBCNfYgHNFD3Ww9uxsAeqvJdXUtcKu3Z3H7NdRddOZ2NDPExE0A+0/YG3FeBNuRNuAAAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/04.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAkAA4BaJQBOgCLFs01DAAD8/1SdBrZszk9D3VkPvRP1+XVVk7WjEOLcH2t0Pn07Pd+fkXg26eUDmZVwtgGBQVGFrplmY8AAAA=="
+    },
+    {
+      "src": "/stays/santorini-bliss/05.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAQCdASoQAAkAA4BaJZQAAkfrrQAA4YE5qvnd2IWKiuLI8vi6vQELj0qnq9NlS4CsgEX0HZjolIAA"
+    },
+    {
+      "src": "/stays/santorini-bliss/06.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJZQC7ACRveSYAAD94l8UHy+H+5eGWYgVOGJ6wj0Uz5cSh80w3aZ2xqiMnzVgbASIFW1sgJEck4AAAAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/07.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAkAA4BaJZgAAn6LtEAA/G8I9mdQeqosUgK029CU5OZcew0L/mnxNfk5xPfFGGi0PvBowEAB21D0dqL4bBoGuAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/08.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAQCdASoQAAkAA4BaJZwAAouxL4AA+p/k2qROF48aTW52LVdZYbEfWPG92la1dlfc1mfuyWpnKXAaUSkrPyYEAAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/09.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAkAA4BaJaACdAEfwoa07EAA9FiO43tfRgk7h/Vf4MPsc2CsTfEYAwcCygYxqaSxYnhMj4PpP4AFd8tXKqiyZ4Lrt+IDPGOALaSKte61gAAA"
+    },
+    {
+      "src": "/stays/santorini-bliss/10.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAkAA4BaJYgCdH8AGXw1EUWgAP7l7UBflBJkGEFBrhcpo80ppPKirk35G0vvIHeX3DnQK7ZFzNzpIpYh8ZWP4FX1dZoQu92tB1/egAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/11.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAkAA4BaJZgCdAD693IUzgAA9p6EWStJZYKm/hN+qUJ13mjsNeRSsM/D1YLfbd70MXhQNrIVJyzmszmGhAUdQ86TAVwpIwoAAA=="
+    },
+    {
+      "src": "/stays/santorini-bliss/12.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAkAA4BaJZgCdAEXWfdMzcJGAAD+mxn/XQDz4phQl1DMRjV2ZyLu1Ph5BNVwifJx70+giDYbQbj8g+n9GZGaWzrxKp+AJAAAAA=="
+    },
+    {
+      "src": "/stays/santorini-bliss/13.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAkAA4BaJYgCdAEVYmhy2qLAAP7uo8cIdEkw+cfK/x7hf2C2rhBSwrCJwc4ovD5S9+YXZcWNKnUCvw5y30jJ5AoWTsjwFlM9MtZoAAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/14.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAkAA4BaJZgCdAEQYrpcS4tAAMtKtkNPJYBOdf5GzmY+B8zFmPHle0HkRXM9/gTaa3aYJlzntjSvOhwnyHOE2FXr3xJlr537kss3ct9umAAA"
+    },
+    {
+      "src": "/stays/santorini-bliss/15.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAkAA4BaJYgCdAD8tdSDgcAA/vL/PrEHsNPjb7tLM1G/Zl5CCGjHck6wegQ99ZMeXB4Qvg6xaf5dvs+VRgLjeYGuGKAA"
+    },
+    {
+      "src": "/stays/santorini-bliss/16.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAkAA4BaJbACdABrUeAAAKHtfNDjfIz1NDprUjls7yafppFM2BGJjIxvGtm3xx+ciJWN153fYz/v2geQj/f7QIAAAA=="
+    },
+    {
+      "src": "/stays/santorini-bliss/17.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQAAkAA4BaJaQAApEn/Pf5AAD+jwm72hgsjYumdQREFsdEDQxQxNHgAAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/18.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoQAAkAA4BaJaQAAt/Ex5d0AP5f2pAxfJHkFsu9UKbBk5AZvjE55i/f7gAAAA=="
+    },
+    {
+      "src": "/stays/santorini-bliss/19.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoQAAkAA4BaJaQAAbhJsgAA4DPGfdCrwdV1YBD6JdHGYO2XR0INHt6An04B+3ASacOVUSCUiswAAA=="
+    },
+    {
+      "src": "/stays/santorini-bliss/20.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAkAA4BaJZwAAuXfJyeAAP7q80uU34fMYCLMcJ+IbQz+Rwes82AMlJZ8fMWEmkkfoAAA"
+    },
+    {
+      "src": "/stays/santorini-bliss/21.webp",
+      "width": 1920,
+      "height": 1082,
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQAAkAA4BaJbACdH8AFN8j5IKYAAD5br4K2ii6H6xI7dIIYMSXS5hdpDl0DtiEO1WTBMqixNugVDoMXffofo6rMnHwqDwYXvnZynbQsIS/qCjPfXyztFmAyMSxAAAA"
+    },
+    {
+      "src": "/stays/santorini-bliss/22.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAkAA4BaJbAC7AED9+eAGADONmFL98YbRLx3EN0actm5AJri+LAntgzAKph9FSZTsNq8/OEnUzCT4WgGyTBHF1hK9LqKUgAAAA=="
+    },
+    {
+      "src": "/stays/santorini-bliss/23.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJbACdAEHElBPSAD+hquvmJAYfrjEwvRPrRFMzwIp8csYGhZHRrgvnkBBGizILSge6yNcs2+bXF7w+L+e6C6Eb++MQ59YEPAAAA=="
+    },
+    {
+      "src": "/stays/santorini-bliss/24.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAkAA4BaJZQCdAD54RfBAADN+66HvUbFXMWCIhtdDe2mbTmbQjAvBjDQPpV2wdawf9lb3Rfnr/Dg0DObvtN6ZjhmlA5gAAA="
+    },
+    {
+      "src": "/stays/santorini-bliss/25.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAkAA4BaJYwC7ADcocLbIuAA4mwSqNRCiz+K1EzL2S7Xe1MaSE3xofCdsiHW3xb0XfJcBoJ8MmSASAAAAA=="
+    },
+    {
+      "src": "/stays/santorini-bliss/26.webp",
+      "width": 1920,
+      "height": 3411,
+      "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoQABwAPu1iqU2ppaOiMAgBMB2JYgC/OywFR+LmKPEa6+gP1J9gAP5R9/IIunUHUzbFaQ7wZrtGPJELyajqRjE/n8k2tlFJYv2joZbMHCOlMcbSbZTBEvqbbmjg5N3t/Ws0woyU2nOXnYpkcVQi7p39c8yfzt+Y93nK14xs6gqy8/m+Oz8VF5VpGYLgAA=="
     }
   ],
   "snug-studio": [
@@ -798,6 +1534,286 @@ export const photosBySlug: Record<string, Photo[]> = {
       "width": 2500,
       "height": 1408,
       "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAkAA4BaJQBOgB4D0bCXgAD+5zZJOQKhWIhbSjXDRcVhdJWq+ggH/vQsaPP9+JUUUQV+6BCahUCxnAA="
+    }
+  ],
+  "swift": [
+    {
+      "src": "/stays/swift/01.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAkAA4BaJZACdAEXaXXacMBgAMyJNG2E+ULnLbfiyShq+U6V5wukhq8py6l4QBXO8L2NYQGSWOVbOJWd5WQNQsnNMN4GoAA="
+    },
+    {
+      "src": "/stays/swift/02.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAkAA4BaJZACdAYp5InMYj6IAP7tq6sXa30NLfhJrpTxKP6O3dFboPrIaL+7A1X9YxwjfpHUpsWBQaiWwNKcqnku9QUy+NaEOxL9sCwAAA=="
+    },
+    {
+      "src": "/stays/swift/03.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAQCdASoQAAkAA4BaJYwCdACQQdEQAPzZNilw9MV48P+MVgCw00+PP9G3AkXX1L+yFesAhl+UE2jI2XxDMw5BQ3xMVojTfzQdoY+aC9nvsdGUxQAAAA=="
+    },
+    {
+      "src": "/stays/swift/04.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAkAA4BaJZQCdAC9f1A04AD7w4QhrhvEadF0J1BNW2uYrKi0skf7s9p1wjxOLqQIwRcOBQ8Pmo4AAAA="
+    },
+    {
+      "src": "/stays/swift/05.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJaQAAveJJGmRMgAA/tKyVRq797ncE2r3rsmmLnHeUOnXurkc4JA+gp1iuzgzHXTgzwT6VxooAAAA"
+    },
+    {
+      "src": "/stays/swift/06.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAkAA4BaJQAAMWR1oAAA/iabwvevFyK28QWz5t5bqNCZx7nQxrFtuhOn5vvTScUl8IWWoeE24W9MZwPyBsPwAAA="
+    },
+    {
+      "src": "/stays/swift/07.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAkAA4BaJYwCdADbY/oBTQAA/mUe6IdVuQ8cJ6k95peyIOjgonxwWMBK/6sqWnS3CRtIi4HifAOE5XgAAA=="
+    },
+    {
+      "src": "/stays/swift/08.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAkAA4BaJZwAAsVi6Gy44AD+1ylaBIXRDV1Ifl5aOfHjAkma6gUnFlJwP9zJBtmGMswdXB/4z4EAAAA="
+    },
+    {
+      "src": "/stays/swift/09.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAkAA4BaJYwAA2y4iypaGgAA/liHyymR4UEjXUPvg5EsIvd00cPRuuGk9z5tE7Eud+5nGUsVaht+OfNYDCVV/ixJQl6Ynt64EIAA"
+    },
+    {
+      "src": "/stays/swift/10.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAQCdASoQAAkAA4BaJZQAAZabQWegAP5MfecJxEF8lVO25PNZWCujoNuB1VGaO16MXVu6Yko/gQdbToInfuBGUR3Z7Fo/3CtpgZPme2HqImtGgAA="
+    },
+    {
+      "src": "/stays/swift/11.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAkAA4BaJYwCdAEWuBAEjkQAAP6tK4AJzuWP5+YUYyl3XcZTrj5mNhZHqzh++8fB9gofZawTquxdHGnSvIz+kUUAAA=="
+    },
+    {
+      "src": "/stays/swift/12.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAkAA4BaJZQCdADvy4AfIAD+xB/lmARksJ1t2QmDnbJtP3qqixuKzMMqTw0j3mv++ElMM7qwglR9EDKyhsA/KhW5k9EPMG6NLPwA"
+    },
+    {
+      "src": "/stays/swift/13.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAkAA4BaJZQC7ADH27uAxYAA/A6QYl5eTjHyYGWYP+1EpXJsNDdAnBf+65AN5HYSlZp98cTQUYZOwFpOi7owS5r0GNREhAwe5MAA"
+    },
+    {
+      "src": "/stays/swift/14.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAkAA4BaJaQAAwS665gZQAD+52x5dzP7/ILn3XDZiYk04rDSEyFZy+7nBLU2zoAAAA=="
+    },
+    {
+      "src": "/stays/swift/15.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAkAA4BaJZwAAUJn5WAA/fxeECaQpMWbMGv2xwSt9V8tandpFjh0empDYYjHlHX1T59U1w8JW39J1YQAAA=="
+    },
+    {
+      "src": "/stays/swift/16.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABQAgCdASoQAAkAA4BaJZQCdMn8BTfXobrz6AAA/okXdEe4+uK51yna8viVWfnoZIXrcaAZMsjhxR8jt7l3gt0VEwWNy6Ind2a6aViPoOb347AA"
+    },
+    {
+      "src": "/stays/swift/17.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAkAA4BaJQBOj+ABmX3/gAD+m6g/1qVJIli0GTwA2ZPyflM3Y49K+7uqBhwSVt+4YKfVY79T+ai2bG0mM15G4KRbw7FN63PdVWoLAAA="
+    }
+  ],
+  "uni-pod": [
+    {
+      "src": "/stays/uni-pod/01.webp",
+      "width": 1920,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAkAA4BaJagCdAYtLCp5j4HwAP7fAFO/E1oorFPrTfMggP075Zcx34btKb2x5pCnxf0q5+GkF0fIFWn/1+ibD1HQjLmod1F9eJHIFlo0+9uyTtCxjNpYlSks5QAA"
+    },
+    {
+      "src": "/stays/uni-pod/02.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAkAA4BaJbACdAD2IFWeCUAA/vE44N3BpKVbg66iI+9MqR8b9OefrsX9Vyg3Fv382fR2oTRPRYb45D/8tsOreNgqFVLc14/AAA=="
+    },
+    {
+      "src": "/stays/uni-pod/03.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAQCdASoQAAkAA4BaJQBOgBI1LuCgAP4zpOStzO8Np/uajZediXuItF20tWK3aeeyOli/ZjCTrPDi0lf7VEx7+nu/x4y6ihdFQvgCGbvidBMdBMzKL98nLqAAAA=="
+    },
+    {
+      "src": "/stays/uni-pod/04.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAkAA4BaJQBOgBmDtdsWgAD+VOx1oscmghe6gmCjlasQTDF6rjQi8ojNvCegqhJiZQASoBABvkIcvk3YGAAA"
+    },
+    {
+      "src": "/stays/uni-pod/05.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAkAA4BaJYgCdAD7YKP6xqIA/dGDb+7IJM+hUljZQu+qShL5UC8CdTncW97wSXqANs9PeaG+h1UDzG+9cCrOYqfeoAAA"
+    },
+    {
+      "src": "/stays/uni-pod/06.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAkAA4BaJYgCdAYuRUZQUtF8APv8rsPYPD3Vxgal6Q0VN8lSdmVoNL+LOloyF1xQKazOpGZ2q81/s9oQfDiP7fzfQiJFF3c09z7we2SQxpbaW4RctbXNAAA="
+    },
+    {
+      "src": "/stays/uni-pod/07.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAkAA4BaJQBOgBultKQzAAD+qobbIzklb6ncHhsVfboatBcOt8PquHeAq4KsFjIhEP5Osq91DhU4bw/6DkAAonFvM7fxPMBjWd0GAAA="
+    },
+    {
+      "src": "/stays/uni-pod/08.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJQBOgBhonxKjAAD+wew9m/SH5oSb3cBPeyhZ4qV9suIdu+pvgzPx2eZ3mgjwYcKR3V/DXhDq7MoNOXAAGrapSdCk6UJGRRyAAA=="
+    },
+    {
+      "src": "/stays/uni-pod/09.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAkAA4BaJYwCdADpAcUAAAD+71ndMfKrShaIBlBI/lYft77Wg6IEvGEIuCO3qK2isooTmIgDrG3jyCeuEoQKSYJzG09fJ33yAA=="
+    },
+    {
+      "src": "/stays/uni-pod/10.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAkAA4BaJZQAAfSI+y2YAOH9Vg1nwwXkre8XdmLb5+ovSEzVNrutCSrAh4Yq8Wd5LICAw/VYDqgkwsOAAA=="
+    },
+    {
+      "src": "/stays/uni-pod/11.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAkAA4BaJZwAAbIpnugAAPZnAJFQVwbWdES/TKO8wuBNOzSb24jP2Kp/Y3BAiBP/ObylgAA="
+    },
+    {
+      "src": "/stays/uni-pod/12.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJZQAAxU5ULgEsADN8F8tZZXU99qOMVXtWyyBVrXGC3/gzuh83gL5uuyvbVVVsow8QmV36Yl9t/2AAAA="
+    },
+    {
+      "src": "/stays/uni-pod/13.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAkAA4BaJZwAAsV0SyA1YAD+6pRRravQ6ziP8hQvrjeL2OqAu91D0K+S3HWpilb65ytgFAA="
+    },
+    {
+      "src": "/stays/uni-pod/14.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAkAA4BaJZQAAtvR0SHbwAD45KD98k5hwatz+V5aVp+S0W869oFn22JEXPx/R9g04TSM8rpt52jDZP88AAAA"
+    },
+    {
+      "src": "/stays/uni-pod/15.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAkAA4BaJZQAApQT4XNyQAD+VtfSiMlre+UCoMdzhPcyWbKU4qZ8NCWFscqbUA4AAA=="
+    },
+    {
+      "src": "/stays/uni-pod/16.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAQCdASoQAAkAA4BaJYwAAY4lyIAA/JoWlp1d+5ByNcBaUrcuu3Qdr5fqyu5JacQ4/G8SAAA="
+    },
+    {
+      "src": "/stays/uni-pod/17.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQAAkAA4BaJZQAAtuqxERAAPfdY7MevzFI+ZS8Vf6u1Vi6CRXcurbK7/P530KAAAA="
+    },
+    {
+      "src": "/stays/uni-pod/18.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAkAA4BaJQBOgMXctpZ1OlFWAAD+lDypUdDfjWH984dS9ZQt+WYtJNuwwa0Au7vQbeUZhB7Wv6kjPcHAKCBbriaR8ARk4XwBziizpc9AAA=="
+    },
+    {
+      "src": "/stays/uni-pod/19.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAkAA4BaJYwCdAEDpX5/Bvt4AM4pXLWXH3wbIzmSzYztXEwhuf28Ie9Xnx5PazAJWg8nFh6HODlzeG7ywRUaKoy+yUUAAAA="
+    },
+    {
+      "src": "/stays/uni-pod/20.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJYwCdADDGJ52wAD7Irw/V8mQIBOFDEHRL8ie+1PolV8ZgDLj4b82lbE7TMx9oQSRjRwzumnlnqiIAAA="
+    },
+    {
+      "src": "/stays/uni-pod/21.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAkAA4BaJYwCdAEeZe1f4AD94gy4VpYdeKfQ4C63ECzbyZxXbUaW3J5HtIHifLl6wdqvOwK9PN00OAAAAA=="
+    },
+    {
+      "src": "/stays/uni-pod/22.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAkAA4BaJYgCdAEWUQb+nDcAAOJ8FJwc2RCujxOlacJ7TfLT/L6M7CgXyuK3TIFxsrYgYG0iit2fqXe+9tp7P9EgAA=="
+    },
+    {
+      "src": "/stays/uni-pod/23.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAkAA4BaJYwCdADRDnsvcAD+lyBBjQ3p4IVx/uisHz7METP0W37ig6T9QjcDf77g+OKJgTugPG7cnieS/q6i2Y7BLHAEb5mo4AAA"
+    },
+    {
+      "src": "/stays/uni-pod/24.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAQCdASoQAAkAA4BaJQBOgBw5YSAA/fvA/tTwdoZP+eD9pxhcbjNSIiOXPs/ASHf8RZ+TibHUiOP5fyFdZ4b7cdcWm4P2wFQAAA=="
+    },
+    {
+      "src": "/stays/uni-pod/25.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAkAA4BaJZwAAuRIpmojoAD+CHqUuKo7jM7pPrkhTW7QM8OKZuyoVAe34Ks+JGNKsFraAiUVkIoAAAA="
+    },
+    {
+      "src": "/stays/uni-pod/26.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAkAA4BaJYwAArP3mm1OQADb3QBtCNOdTOE3ZA8gU5+36DvI0EVyxC5vSlKety9AAA=="
+    },
+    {
+      "src": "/stays/uni-pod/27.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAkAA4BaJZQAAbf+SVIAAPhjKSKQS7oqJYXBbqasyQGU81iKp2SeDqjjOPefyQColEjORvsAoAAA"
+    },
+    {
+      "src": "/stays/uni-pod/28.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAkAA4BaJYgCdADJyOVNIgAA/tvIzVc+kf3UdOA/XjwIe0+2LKKidejnyW0uOCS0WOrF7e3mLlJnPV7G0nhGBjrx+FAkVuXOqAAA"
+    },
+    {
+      "src": "/stays/uni-pod/29.webp",
+      "width": 1920,
+      "height": 1081,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkAA4BaJZgAAuRv7fJp+qAA/sQbic5Me/bje5BWL9dSjCGFoniiD0yiUvMTlxC3RI+2RERwFHWxL+g6n7/XzwAAAA=="
     }
   ],
   "wonk-studio": [

@@ -17,7 +17,7 @@ import {
   siteUrl,
   whatsappLink,
 } from "@/data/site";
-import { coverPhoto, getStay, stayPath, stays } from "@/data/stays";
+import { coverPhoto, getStay, stayCount, stayCountCapitalised, stayPath, stays } from "@/data/stays";
 import { cn } from "@/lib/cn";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -49,17 +49,18 @@ const goodToKnow = [
     title: "Check-in & checkout",
     body: (
       <>
-        Check in after {site.checkIn} and check out by {site.checkOut}. Most stays have self check-in.
+        Check in after {site.checkIn} and check out by {site.checkOut}. Many stays have self check-in.
       </>
     ),
   },
   {
     icon: Footprints,
-    title: "Stairs, not lifts",
+    title: "Lifts and stairs",
     body: (
       <>
-        Upper floors have no lift. <StayLink slug="comfy-pod" /> and <StayLink slug="chillax-pod" /> are on the
-        ground floor.
+        <StayLink slug="swift" />, <StayLink slug="knights" />, <StayLink slug="boutique" /> and{" "}
+        <StayLink slug="calm-boho" /> have a lift. Most other upper floors are stairs only, and all four Pods are
+        on the ground floor.
       </>
     ),
   },
@@ -78,8 +79,9 @@ const goodToKnow = [
     title: "Power backup",
     body: (
       <>
-        Partial backup at <StayLink slug="wonk-studio" />, <StayLink slug="jolly-house" />,{" "}
-        <StayLink slug="snug-studio" /> and <StayLink slug="light-house" />.
+        Full backup at <StayLink slug="knights" />, and partial backup at most others. None at{" "}
+        <StayLink slug="ample-house" />, <StayLink slug="comfy-pod" />, <StayLink slug="chillax-pod" /> or{" "}
+        <StayLink slug="swift" />.
       </>
     ),
   },
@@ -88,8 +90,8 @@ const goodToKnow = [
     title: "Luggage drop-off",
     body: (
       <>
-        Early or late? <StayLink slug="ample-house" />, <StayLink slug="jolly-house" /> and{" "}
-        <StayLink slug="snug-studio" /> can hold your bags.
+        Early or late? <StayLink slug="ample-house" />, <StayLink slug="jolly-house" />,{" "}
+        <StayLink slug="snug-studio" /> and <StayLink slug="knights" /> can hold your bags.
       </>
     ),
   },
@@ -160,7 +162,8 @@ export default function HomePage() {
               <Wordmark className="w-[min(60vw,15rem)] text-mustard sm:w-[22rem] xl:w-[28rem]" />
             </h1>
             <p className="mt-6 max-w-md text-lead text-white/85 sm:mt-10">
-              Seven cosy, colourful stays in Saket, South Delhi. From a room for two to 3 BHK homes that sleep ten.
+              {stayCountCapitalised} cosy, colourful stays in Saket, South Delhi. From a room for two to 3 BHK homes
+              that sleep ten.
             </p>
             <div data-booking-cta className="mt-6 flex flex-wrap gap-2.5 sm:mt-8 sm:gap-3">
               <a
@@ -191,8 +194,8 @@ export default function HomePage() {
               The stays
             </h2>
             <p className="mt-3 text-lead text-muted sm:mt-4">
-              All seven are in Saket, a 5–7 minute drive from Saket Metro Station. Each one is decorated in its
-              own way, and all of them are kept very clean and well maintained.
+              All {stayCount} are in Saket, a 5–7 minute drive from Saket Metro Station. Each one is decorated in
+              its own way, and all of them are kept very clean and well maintained.
             </p>
           </div>
           <div className="mt-10 sm:mt-14">
