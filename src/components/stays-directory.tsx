@@ -65,7 +65,7 @@ export function StaysDirectory({ headingLevel = "h3", swipeOnPhones = false }: S
 
       {/* Hidden until the group has stays, so the page never shows an empty heading. */}
       {budget.length > 0 ? (
-        <section aria-labelledby="group-budget">
+        <section id="budget-stays" aria-labelledby="group-budget">
           <GroupHeader id="group-budget" as={headingLevel} {...groups.budget} />
           <div className={cn(row, "mt-6 md:mt-8 md:grid-cols-3 md:gap-x-6 md:gap-y-14")}>
             {budget.map((stay) => (
