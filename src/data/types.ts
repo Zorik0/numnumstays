@@ -5,7 +5,7 @@ export type Photo = {
   blurDataURL: string;
 };
 
-export type StayGroup = "homes" | "compact";
+export type StayGroup = "homes" | "compact" | "budget";
 
 export type Stay = {
   slug: string;

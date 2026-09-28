@@ -238,6 +238,10 @@ export const groups: Record<StayGroup, { title: string; intro: string }> = {
     title: "Studios, rooms and 1 BHKs",
     intro: "Self-contained places for couples and small groups of up to four.",
   },
+  budget: {
+    title: "Budget stays",
+    intro: "Clean, comfortable places at a lower price.",
+  },
 };
 
 export function getStay(slug: string) {
