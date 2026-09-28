@@ -2,7 +2,7 @@ export const site = {
   name: "NumNum Stays",
   tagline: "Luxury & cosy stays in Saket, South Delhi.",
   description:
-    "Seven colourful, individually designed studios, 1 BHKs and 3 BHK homes in Saket, South Delhi, a 5–7 minute drive from Saket Metro. Book direct on WhatsApp or through Airbnb.",
+    "Colourful, individually designed studios, rooms, 1 BHKs and 3 BHK homes in Saket, South Delhi, a 5–7 minute drive from Saket Metro. Book direct on WhatsApp or through Airbnb.",
   area: "Saket, South Delhi",
   phones: [
     { display: "+91 93100 68010", tel: "+919310068010" },

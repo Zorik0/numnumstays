@@ -14,10 +14,11 @@ type StaysDirectoryProps = {
   swipeOnPhones?: boolean;
 };
 
-/** All seven stays, grouped by who they suit. */
+/** Every stay, grouped into 3 BHK homes, smaller places and budget stays. */
 export function StaysDirectory({ headingLevel = "h3", swipeOnPhones = false }: StaysDirectoryProps) {
   const homes = staysIn("homes");
   const compact = staysIn("compact").sort(bySize);
+  const budget = staysIn("budget");
   const cardHeading = headingLevel === "h2" ? "h3" : "h4";
 
   // From md up both variants are the same grid; they differ only on phones.
@@ -61,6 +62,24 @@ export function StaysDirectory({ headingLevel = "h3", swipeOnPhones = false }: S
           ))}
         </div>
       </section>
+
+      {/* Hidden until the group has stays, so the page never shows an empty heading. */}
+      {budget.length > 0 ? (
+        <section aria-labelledby="group-budget">
+          <GroupHeader id="group-budget" as={headingLevel} {...groups.budget} />
+          <div className={cn(row, "mt-6 md:mt-8 md:grid-cols-3 md:gap-x-6 md:gap-y-14")}>
+            {budget.map((stay) => (
+              <StayCard
+                key={stay.slug}
+                stay={stay}
+                headingLevel={cardHeading}
+                sizes={thirdWidth}
+                className={slide}
+              />
+            ))}
+          </div>
+        </section>
+      ) : null}
     </div>
   );
 }

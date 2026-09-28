@@ -31,7 +31,7 @@ export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
   const count = slides.length;
   const [active, setActive] = useState(0);
   // Only photos that have been shown (plus the next one) are mounted, so the
-  // hero doesn't download all seven up front.
+  // hero doesn't download every stay's photo up front.
   const [loaded, setLoaded] = useState(() => new Set([0, 1 % count]));
   const [playing, setPlaying] = useState(true);
   const [holding, setHolding] = useState(false);
@@ -79,6 +79,8 @@ export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
   }
 
   const current = slides[active];
+  // As few rows of door plates as fit seven across, filled evenly.
+  const columns = Math.ceil(count / Math.ceil(count / 7));
 
   return (
     <div
@@ -149,7 +151,12 @@ export function HeroPicker({ slides }: { slides: HeroSlide[] }) {
       </div>
 
       <div className="mt-4 flex items-center gap-2 sm:mt-5">
-        <div role="tablist" aria-label="Choose a stay by door number" className="grid flex-1 grid-cols-7 gap-1.5">
+        <div
+          role="tablist"
+          aria-label="Choose a stay by door number"
+          className="grid flex-1 gap-1.5"
+          style={{ gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))` }}
+        >
           {slides.map((slide, index) => {
             const selected = index === active;
             return (
