@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "All stays",
   description:
-    "Two 3 BHK homes for groups of up to 10, studios, rooms and 1 BHKs for couples and small groups, and budget 1 BHKs for up to four. All in Saket, South Delhi.",
+    "Two 3 BHK homes for groups of up to 10, studios, rooms and 1 BHKs for couples and small groups, and value stays for two to four. All in Saket, South Delhi.",
   path: "/stays",
 });
 

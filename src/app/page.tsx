@@ -58,8 +58,8 @@ const goodToKnow = [
     title: "Lifts and stairs",
     body: (
       <>
-        <StayLink slug="swift" />, <StayLink slug="knights" />, <StayLink slug="boutique" /> and{" "}
-        <StayLink slug="calm-boho" /> have a lift. Most other upper floors are stairs only, and all four Pods are
+        <StayLink slug="swift" />, <StayLink slug="dawn-stay" />, <StayLink slug="pine-stay" />,{" "}
+        <StayLink slug="knights" />, <StayLink slug="boutique" /> and <StayLink slug="calm-boho" /> have a lift. Most other upper floors are stairs only, and all four Pods are
         on the ground floor.
       </>
     ),

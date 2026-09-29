@@ -7,7 +7,7 @@ The website for [NumNum Stays](https://numnumstays.com): cosy, colourful short-s
 | Route | What it is |
 | --- | --- |
 | `/` | Home: hero with the door-number picker, all stays, good-to-know facts, how to book, contact and map |
-| `/stays` | All stays, grouped into 3 BHK homes, smaller places and budget stays |
+| `/stays` | All stays, grouped into 3 BHK homes, smaller places and value stays |
 | `/stays/[slug]` | One stay: photo mosaic, facts, highlights, notes, map, every photo in a lightbox, booking links |
 | `/about` | About NumNum Stays, plus a table of every stay |
 | `/terms` | Terms & conditions, check-in and checkout times |
@@ -48,7 +48,7 @@ This regenerates `src/data/photos.generated.ts` with each photo's size and a sma
 ### Adding a stay
 
 1. Add its photos to `public/stays/<new-slug>/`.
-2. Add an entry to `stays` in `src/data/stays.ts`. Its `group` picks the section it's listed under: `"homes"` (3 BHK homes), `"compact"` (studios, rooms and 1 BHKs) or `"budget"` (budget stays). The Budget stays section only appears once it has at least one stay.
+2. Add an entry to `stays` in `src/data/stays.ts`. Its `group` picks the section it's listed under: `"homes"` (3 BHK homes), `"compact"` (studios, rooms and 1 BHKs) or `"value"` (value stays). The Value stays section only appears once it has at least one stay.
 3. Run `npm run photos`.
 4. Add a 1200 × 630 share image at `public/og/<new-slug>.jpg`. It's used when the link is shared on WhatsApp or social media.
 5. Check the home page's "Good to know" facts (lifts, parking, power backup, luggage drop-off). They name stays by hand.

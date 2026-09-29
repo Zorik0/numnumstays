@@ -37,7 +37,7 @@ export default function AboutPage() {
           </p>
           <p className="mt-5 text-muted">
             There are {stayCount} stays, all in Saket, South Delhi: two 3 BHK homes for groups, studios, rooms and
-            1 BHKs for couples and small groups, and budget 1 BHKs for up to four. No two are decorated alike. One
+            1 BHKs for couples and small groups, and value stays for two to four. No two are decorated alike. One
             is lavender and mustard, one is Santorini blue and white, one is all black under pink neon, and one has
             a neon sign in the living room that reads “This must be the place”.
           </p>
