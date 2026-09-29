@@ -135,7 +135,7 @@ export const stays: Stay[] = [
   {
     slug: "comfy-pod",
     unit: "G001",
-    name: "Comfy Pod",
+    name: "Pine Stay",
     type: "Room",
     group: "compact",
     tagline: "A compact ground-floor room for two, with self check-in.",
@@ -159,7 +159,7 @@ export const stays: Stay[] = [
       "The kitchen has appliances only. There's no stove for cooking.",
       "No car parking.",
     ],
-    airbnbUrl: "https://www.airbnb.co.in/rooms/1672366547504021419",
+    airbnbUrl: "https://www.airbnb.co.in/rooms/1743350792900856273",
     featured: [1, 4, 2, 5, 3],
     legacyPaths: ["/room5", "/room5.html"],
   },
@@ -258,7 +258,7 @@ export const stays: Stay[] = [
   {
     slug: "knights",
     unit: "401",
-    name: "Knights",
+    name: "Dawn Stay",
     type: "1 BHK",
     group: "budget",
     tagline: "An all-black 1 BHK lit in pink neon, on the 4th floor with a lift. Sleeps up to 4.",
@@ -286,7 +286,7 @@ export const stays: Stay[] = [
       "Quiet hours are 10 pm to 7 am.",
       "Smoking is allowed.",
     ],
-    airbnbUrl: "https://www.airbnb.co.in/rooms/1738250763080319073",
+    airbnbUrl: "https://www.airbnb.co.in/rooms/1744025187790690628",
     featured: [1, 2, 3, 4, 12],
     legacyPaths: [],
   },
@@ -467,9 +467,6 @@ const numberWords = [
 
 /** How many stays there are, as a word for running text, e.g. "fourteen". */
 export const stayCount = numberWords[stays.length] ?? String(stays.length);
-
-/** The same, for the start of a sentence, e.g. "Fourteen". */
-export const stayCountCapitalised = stayCount.charAt(0).toUpperCase() + stayCount.slice(1);
 
 export function getStay(slug: string) {
   return stays.find((stay) => stay.slug === slug);

@@ -17,7 +17,7 @@ import {
   siteUrl,
   whatsappLink,
 } from "@/data/site";
-import { coverPhoto, getStay, stayCount, stayCountCapitalised, stayPath, stays } from "@/data/stays";
+import { coverPhoto, getStay, stayCount, stayPath, stays } from "@/data/stays";
 import { cn } from "@/lib/cn";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -162,7 +162,7 @@ export default function HomePage() {
               <Wordmark className="w-[min(60vw,15rem)] text-mustard sm:w-[22rem] xl:w-[28rem]" />
             </h1>
             <p className="mt-6 max-w-md text-lead text-white/85 sm:mt-10">
-              {stayCountCapitalised} cosy, colourful stays in Saket, South Delhi. From a room for two to 3 BHK homes
+              Multiple cosy, colourful stays in Saket, South Delhi. From a room for two to 3 BHK homes
               that sleep ten.
             </p>
             <div data-booking-cta className="mt-6 flex flex-wrap gap-2.5 sm:mt-8 sm:gap-3">
