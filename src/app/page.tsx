@@ -17,7 +17,7 @@ import {
   siteUrl,
   whatsappLink,
 } from "@/data/site";
-import { coverPhoto, getStay, stayCount, stayPath, stays } from "@/data/stays";
+import { coverPhoto, getStay, stayPath, stays } from "@/data/stays";
 import { cn } from "@/lib/cn";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -59,7 +59,8 @@ const goodToKnow = [
     body: (
       <>
         <StayLink slug="swift" />, <StayLink slug="dawn-stay" />, <StayLink slug="pine-stay" />,{" "}
-        <StayLink slug="knights" />, <StayLink slug="boutique" /> and <StayLink slug="calm-boho" /> have a lift. Most other upper floors are stairs only, and all four Pods are
+        <StayLink slug="pop-art" />, <StayLink slug="knights" />, <StayLink slug="boutique" />,{" "}
+        <StayLink slug="breez" /> and <StayLink slug="calm-boho" /> have a lift. Most other upper floors are stairs only, and all four Pods are
         on the ground floor.
       </>
     ),
@@ -194,7 +195,7 @@ export default function HomePage() {
               The stays
             </h2>
             <p className="mt-3 text-lead text-muted sm:mt-4">
-              All {stayCount} are in Saket, a 5–7 minute drive from Saket Metro Station. Each one is decorated in
+              All stays are in Saket, a 5–7 minute drive from Saket Metro Station. Each one is decorated in
               its own way, and all of them are kept very clean and well maintained.
             </p>
           </div>

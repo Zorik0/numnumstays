@@ -53,7 +53,7 @@ This regenerates `src/data/photos.generated.ts` with each photo's size and a sma
 4. Add a 1200 × 630 share image at `public/og/<new-slug>.jpg`. It's used when the link is shared on WhatsApp or social media.
 5. Check the home page's "Good to know" facts (lifts, parking, power backup, luggage drop-off). They name stays by hand.
 
-The number of stays in the copy ("All fourteen are in Saket…") is worked out from `stays`, so it updates on its own.
+The number of stays on the About page ("There are eighteen stays…") is worked out from `stays`, so it updates on its own.
 
 ## Project layout
 

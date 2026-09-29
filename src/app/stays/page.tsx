@@ -1,5 +1,4 @@
 import { StaysDirectory } from "@/components/stays-directory";
-import { stayCount } from "@/data/stays";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata({
@@ -15,7 +14,7 @@ export default function StaysPage() {
       <div className="max-w-2xl">
         <h1 className="text-title font-bold uppercase">All stays</h1>
         <p className="mt-6 text-lead text-muted">
-          All {stayCount} are in Saket, a 5–7 minute drive from Saket Metro Station. Each one is decorated in its own
+          All stays are in Saket, a 5–7 minute drive from Saket Metro Station. Each one is decorated in its own
           way, and all of them are kept very clean and well maintained.
         </p>
       </div>
