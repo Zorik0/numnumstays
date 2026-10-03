@@ -48,12 +48,12 @@ This regenerates `src/data/photos.generated.ts` with each photo's size and a sma
 ### Adding a stay
 
 1. Add its photos to `public/stays/<new-slug>/`.
-2. Add an entry to `stays` in `src/data/stays.ts`. Its `group` picks the section it's listed under: `"homes"` (3 BHK homes), `"compact"` (studios, rooms and 1 BHKs) or `"value"` (value stays). The Value stays section only appears once it has at least one stay.
+2. Add an entry to `stays` in `src/data/stays.ts`. Its `group` picks the section it's listed under: `"homes"` (3 BHK homes), `"compact"` (studios, rooms and 1 BHKs) or `"value"` (value stays). The Value stays section only appears once it has at least one stay. Stays appear on the site in the order they're listed in `stays`, so put it where it should show up.
 3. Run `npm run photos`.
 4. Add a 1200 × 630 share image at `public/og/<new-slug>.jpg`. It's used when the link is shared on WhatsApp or social media.
 5. Check the home page's "Good to know" facts (lifts, parking, power backup, luggage drop-off). They name stays by hand.
 
-The number of stays on the About page ("There are eighteen stays…") is worked out from `stays`, so it updates on its own.
+The number of stays on the About page ("There are nineteen stays…") is worked out from `stays`, so it updates on its own.
 
 ## Project layout
 

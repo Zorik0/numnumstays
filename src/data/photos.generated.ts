@@ -928,6 +928,104 @@ export const photosBySlug: Record<string, Photo[]> = {
       "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAkAA4BaJYwCdADbquOIYAD+mTUqv77LIbmpbK3uWkSvQO6QZKJme6N2bOvxSwd7NcAN9ZfBshgA"
     }
   ],
+  "horizon-home": [
+    {
+      "src": "/stays/horizon-home/01.webp",
+      "width": 1200,
+      "height": 677,
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAkAA4BaJagCdApgA0uszbLSgAD+2A0ZB7LhH8MWaPt0KJCLQE3wjI7bRwdPF9Ne2obPWZyhahalTs07IYDVVrKP+CbjFhx3ejF90XN3czx7AAA="
+    },
+    {
+      "src": "/stays/horizon-home/02.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAkAA4BaJZwAAvnMhI0UywAA/mWG5gd7AHV9KFIgBJM68V/AO4tVJ+je/vizCZ3+93lCTBhEXTwZvuitRgACWMxHgAAA"
+    },
+    {
+      "src": "/stays/horizon-home/03.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkAA4BaJZQAAn/24JLmgIAA/e2AlorzE0PCDwCVSCh3/aX3dbGdyPcDOWmvRKS9i0JQ5U5rRd9Ks4J24PpsmwAAAA=="
+    },
+    {
+      "src": "/stays/horizon-home/04.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAkAA4BaJZQCdADLxYLd4AD+065KPc/5nUq8UGiGyGbZ2U8O3aR2rJlt89qvxtxpNKOR8M+BxBVeb/s8IGj2URCohkJAThGZAFgA"
+    },
+    {
+      "src": "/stays/horizon-home/05.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJYwC7ADjQosVKVAA/M8Py/D0p6kVFGgQ8yhSFglDIubYDrTMqwQfhsmGD+//eoKtPBrc6OPJgAAA"
+    },
+    {
+      "src": "/stays/horizon-home/06.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAkAA4BaJZQAAuK3HXAA/LKx9bwRQJ0JZlrO2Uvb1tDPLpLn95HhvSjwipLBYUir/IQLd07uGUKTajgAAA=="
+    },
+    {
+      "src": "/stays/horizon-home/07.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAkAA4BaJZQCw7EPA36E5KwA/ZsaG+lzOPixnA7w0DlMLC850nKxf5wH9HH7I66wxl0E/riUwrRHgtk1zdqH4Ob+nF77mf9t/IAA"
+    },
+    {
+      "src": "/stays/horizon-home/08.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAkAA4BaJYwCdAEXZrqbp6EQAP54viDFwb1gSToQVXXQHUPJz9RQB+Bf2FwxnubffDe5Iastj3vMTnDfpUAA"
+    },
+    {
+      "src": "/stays/horizon-home/09.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACQAQCdASoQAAkAA4BaJZwAAWUSHIAA+mfuH+r17RKX4mn/q8s+5uldSucMCJsm2K8w9QAA"
+    },
+    {
+      "src": "/stays/horizon-home/10.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJQBYdhiw2kCYAAD+3Pn0jhwqSFOzeK5k34+m0G6NBwzW8yu1jSz+GjSv4/VpP0IfDA0Jtt8+JS5V7o1LfPrLSTFS5CcAdkAAAA=="
+    },
+    {
+      "src": "/stays/horizon-home/11.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAkAA4BaJQBYdhk5hvHDNQAA9Ya2j9r+M269cX2p5TIKp1DJbDDCb0izNcPKvK8tzxZ4BSp0aIC6PxfDTlEsSgBpMOP2kwGXyueUAAA="
+    },
+    {
+      "src": "/stays/horizon-home/12.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAkAA4BaJYwC7ACzdItm6AD+l3gZn1NNCdXqnpS6KrS4Gr6C+fuOJg/MR0/65P6VjWgRR8mKMupqA8HRKzfdjDwrdgsFmngA+OFBAAA="
+    },
+    {
+      "src": "/stays/horizon-home/13.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAkAA4BaJQBdgCPe8QxxkgAA/GYSgMwaStLdC5/UQPsjWIrj9yXQwQAej3+rnqfo6TypbO0ifwgRYENIjdAdwdNmgf9anf3Az/01Y1zzKEPPwloAAA=="
+    },
+    {
+      "src": "/stays/horizon-home/14.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAQCdASoQAAkAA4BaJZwAAQZMAAD+a56SOFdJs31L38GxNQVZpLf0FEZDRY9ybBIkgP9UWhqfkEpeAAA="
+    },
+    {
+      "src": "/stays/horizon-home/15.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoQAAkAA4BaJZwAAu1fJ11AAP7V3/GjLW1MPeDm3+ysHXenzTxju3uY9dOgYAAA"
+    },
+    {
+      "src": "/stays/horizon-home/16.webp",
+      "width": 1200,
+      "height": 676,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAkAA4BaJYwCsAE0yBu5HCrIAP4Km3fg+vS30pT+I8jFIvmvHVO4F6kHZ2Duiaej2G3wRp8q28wqT4HJNygyCP7cvN/7GAwAAA=="
+    }
+  ],
   "jolly-house": [
     {
       "src": "/stays/jolly-house/01.webp",

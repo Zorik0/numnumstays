@@ -1,12 +1,6 @@
 import { groups, staysIn } from "@/data/stays";
-import type { Stay } from "@/data/types";
 import { cn } from "@/lib/cn";
 import { StayCard } from "./stay-card";
-
-const typeRank: Record<Stay["type"], number> = { "3 BHK": 4, "1 BHK": 3, Studio: 2, Room: 1 };
-
-// Largest first, so card size follows the size of the place.
-const bySize = (a: Stay, b: Stay) => b.guests - a.guests || typeRank[b.type] - typeRank[a.type];
 
 type StaysDirectoryProps = {
   headingLevel?: "h2" | "h3";
@@ -16,9 +10,10 @@ type StaysDirectoryProps = {
 
 /** Every stay, grouped into 3 BHK homes, smaller places and value stays. */
 export function StaysDirectory({ headingLevel = "h3", swipeOnPhones = false }: StaysDirectoryProps) {
+  // Each group follows the order in stays.ts, and the first two compact stays get the bigger cards.
   const homes = staysIn("homes");
-  const compact = staysIn("compact").sort(bySize);
-  const value = staysIn("value").sort(bySize);
+  const compact = staysIn("compact");
+  const value = staysIn("value");
   const cardHeading = headingLevel === "h2" ? "h3" : "h4";
 
   // From md up both variants are the same grid; they differ only on phones.

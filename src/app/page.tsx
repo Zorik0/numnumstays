@@ -59,7 +59,8 @@ const goodToKnow = [
     body: (
       <>
         <StayLink slug="swift" />, <StayLink slug="dawn-stay" />, <StayLink slug="pine-stay" />,{" "}
-        <StayLink slug="pop-art" />, <StayLink slug="knights" />, <StayLink slug="boutique" />,{" "}
+        <StayLink slug="horizon-home" />, <StayLink slug="pop-art" />, <StayLink slug="knights" />,{" "}
+        <StayLink slug="boutique" />,{" "}
         <StayLink slug="breez" /> and <StayLink slug="calm-boho" /> have a lift. Most other upper floors are stairs only, and all four Pods are
         on the ground floor.
       </>
